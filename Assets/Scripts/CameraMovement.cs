@@ -11,7 +11,6 @@ public class CameraMovement : MonoBehaviour
     
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -20,16 +19,16 @@ public class CameraMovement : MonoBehaviour
         //Vector3 screenPan = transform.position;
 
         if (plr.transform.position.y >= transform.position.y + (panVer / 2.0f))
-            transform.position = new Vector3(0, transform.position.y + panVer, depth);
+            transform.position = new Vector3(transform.position.x, transform.position.y + panVer, depth);
 
         if (plr.transform.position.y <= transform.position.y - (panVer / 2.0f))
-            transform.position = new Vector3(0, transform.position.y - panVer, depth);
+            transform.position = new Vector3(transform.position.x, transform.position.y - panVer, depth);
 
         if (plr.transform.position.x >= transform.position.x + (panHor / 2.0f))
-            transform.position = new Vector3(transform.position.x + panHor, 0, depth);
+            transform.position = new Vector3(transform.position.x + panHor, transform.position.y, depth);
 
         if (plr.transform.position.x <= transform.position.x - (panHor / 2.0f))
-            transform.position = new Vector3(transform.position.x - panHor, 0, depth);
+            transform.position = new Vector3(transform.position.x - panHor, transform.position.y, depth);
 
         //transform.position = screenPan;
 
