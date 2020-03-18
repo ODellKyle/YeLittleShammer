@@ -799,7 +799,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -2.0893211, y: 3.8120942}
@@ -841,7 +841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae97cbd31b461794fab71c85e1f57bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  houseEntrance: {fileID: 0}
 --- !u!1 &1371263136
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,7 +937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e9f67a3ddd67c4f84b753232753e8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plr: {fileID: 0}
 --- !u!1 &1392240762
 GameObject:
   m_ObjectHideFlags: 0

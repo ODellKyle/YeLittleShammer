@@ -7,14 +7,14 @@ public class CameraMovement : MonoBehaviour
     private float panVer = 10f;
     private float panHor = 17.8f;
     private float depth = -10f;
-    
+    public static Vector3 prevLocation;
     void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //Vector3 screenPan = transform.position;
 
@@ -32,5 +32,10 @@ public class CameraMovement : MonoBehaviour
 
         //transform.position = screenPan;
 
+    }
+
+    public static void SetCamera() 
+    {
+        
     }
 }

@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     public BoxCollider2D plyrBoxCollider;
     public Rigidbody2D plyrRgdBdy;
     public PlayerMovement mvmt;
+    public Vector3 prevLocation;
 
 
     // Start is called before the first frame update
