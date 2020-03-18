@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     private static Player instance;
     public static Player Instance { get { return instance; } }
     private void Awake()
@@ -18,22 +17,21 @@ public class Player : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
             instance = this;
         }
-
+        playerState = GetComponent<PlayerState>();
     }
 
     float horizontalMovement;
     public bool jump = false;
     public BoxCollider2D plyrBoxCollider;
-    public Rigidbody2D plyrRgdBdy;
     public PlayerMovement mvmt;
     public Vector3 prevLocation;
+    public PlayerState playerState;
 
 
     // Start is called before the first frame update
     void Start()
     {
         plyrBoxCollider = GetComponent<BoxCollider2D>();
-        plyrRgdBdy = GetComponent<Rigidbody2D>();
         mvmt = GetComponent<PlayerMovement>();
     }
 
@@ -54,5 +52,10 @@ public class Player : MonoBehaviour
     public BoxCollider2D GetPlyrBoxCollider()
     {
         return this.plyrBoxCollider;
+    }
+
+    public void TakeDamage(int damage) 
+    {
+        playerState.hp -= damage;
     }
 }

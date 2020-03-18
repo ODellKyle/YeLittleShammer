@@ -4,32 +4,50 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private float dirX;
-    private float dirY;
+    private float dirX = 0;
+    private float dirY = 0;
+    private Vector3 velX;
+    private Vector3 velY;
+    private float speed = 400f;
     public int damage = 10;
     private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        dirX = 0f;
-        dirY = 0f;
+        velX = transform.right;
+        velY = transform.up;
         rb = GetComponent<Rigidbody2D>();
-        if(Input.GetButton("Fire3"))
-            dirX = Input.GetAxisRaw("Fire3") * Time.fixedDeltaTime;
-        if(Input.GetButton("Fire2"))
-            dirY = Input.GetAxisRaw("Fire2") * Time.fixedDeltaTime;
-        rb.velocity = new Vector2(dirX * 400f, dirY * 400f);
+        if (Input.GetButton("Fire3"))
+        {
+            dirX = Input.GetAxisRaw("Fire3");
+
+        }
+        if (Input.GetButton("Fire2"))
+        {
+            dirY = Input.GetAxisRaw("Fire2");
+        }
+
+        if(dirX != 0 || dirY != 0) 
+        {
+            velX = new Vector3(dirX, 0, 0);
+            velY = new Vector3(0, dirY, 0);
+        }
+        rb.velocity = (speed * Time.fixedDeltaTime) * (velX + velY);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.name);
         Enemy enemy = collision.GetComponent<Enemy>();
-        if(enemy != null) 
+        Player player = collision.GetComponent<Player>();
+        if (enemy != null) 
         {
             enemy.TakeDamage(damage);
         }
+
+        if (player != null)
+            player.TakeDamage(damage);
 
         Destroy(gameObject);
     }
