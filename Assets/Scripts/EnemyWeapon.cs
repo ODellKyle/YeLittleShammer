@@ -15,7 +15,7 @@ public class EnemyWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine("EShoot");
+        //StartCoroutine("EShoot");
     }
 
     void Shoot()

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HouseEntrance : MonoBehaviour
 {
-    private Vector3 entance = new Vector3(-0.46f, 3.3f, 0);
+    private Vector3 entance = new Vector3(0f, -2f, 0f);
     //private BoxCollider2D houseEntrance;
     // Start is called before the first frame update
     void Start()
