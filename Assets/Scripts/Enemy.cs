@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Character
 {
-    public int hp = 100;
-    private float speed = 20f;
     public PlayerMovement mvmt;
-    public bool jump = true;
 
     public void TakeDamage(int damage) 
     {
@@ -21,6 +18,9 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         mvmt = GetComponent<PlayerMovement>();
+        hp = 100;
+        speed = 20f;
+        jump = true;
     }
 
     // Update is called once per frame
@@ -34,5 +34,10 @@ public class Enemy : MonoBehaviour
         jump = Player.Instance.jump;
         mvmt.Move(0f, jump);
         jump = false;
+    }
+
+    public override void Move()
+    {
+        throw new System.NotImplementedException();
     }
 }

@@ -14,6 +14,6 @@ public class HUD_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hpDisplay.text = Player.Instance.playerState.hp.ToString();
+        hpDisplay.text = Player.Instance.hp.ToString();
     }
 }

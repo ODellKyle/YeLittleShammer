@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-    bool onGround = true;
+    public bool onGround = true;
     bool doubleJump = false;
     bool facingRight = true;
 

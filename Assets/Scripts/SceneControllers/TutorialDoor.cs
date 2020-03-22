@@ -3,38 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TutorialDoor : MonoBehaviour
+public class TutorialDoor : Door
 {
-    private Vector3 entance = new Vector3(3.5f, -1.89f, 0f);
     // Start is called before the first frame update
     void Start()
     {
-        
+        collider = GetComponent<BoxCollider2D>();
+        entrance = collider.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        isTouching = Player.Instance.mvmt.onGround;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.Equals(Player.Instance.plyrBoxCollider))
+        Open(collision, "TutorialScene", "FirstLevel");
+    }
+
+    IEnumerator Enter ()
+    {
+        for (float i = 1f; i <= 0f; i -= .1f)
         {
-            if (SceneManager.GetActiveScene().Equals(SceneManager.GetSceneByName("TutorialScene")))
-            {
-                SceneManager.LoadScene("FirstLevel");
-                Player.Instance.transform.position = new Vector3(-3.5f, -3.14f, 0);
-            }
-            else
-            {
-                //Player.Instance.prevLocation = new Vector3(43.48f, 5.06f, 0);
-                SceneManager.LoadScene("TutorialScene");
-                Player.Instance.transform.position = entance;
-            }
 
-
+            yield return new WaitForSeconds(.1f);
         }
     }
 }

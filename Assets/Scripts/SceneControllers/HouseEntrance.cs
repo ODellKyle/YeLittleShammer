@@ -37,7 +37,7 @@ public class HouseEntrance : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.Equals(Player.Instance.plyrBoxCollider))
+        if (collision.Equals(Player.Instance.collider))
         {
             if (SceneManager.GetActiveScene().Equals(SceneManager.GetSceneByName("House")))
             {
