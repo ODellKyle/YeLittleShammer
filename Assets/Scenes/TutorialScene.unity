@@ -524,6 +524,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: doorSprite
       objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: goingTo
+      value: FirstLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: comingFrom
+      value: TutorialScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: goingToIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7476006444580586289, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -578,6 +593,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792953455860695522, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: goingTo
+      value: FirstLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792953455860695522, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: comingFrom
+      value: TutorialScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792953455860695522, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: goingToIndex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69209f56fea05cd45bc39017bdd3c052, type: 3}

@@ -673,6 +673,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 962815946671200282, guid: cbdabdc719b916a44be1b13b20e62b62,
+        type: 3}
+      propertyPath: goingTo
+      value: FirstLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 962815946671200282, guid: cbdabdc719b916a44be1b13b20e62b62,
+        type: 3}
+      propertyPath: comingFrom
+      value: House
+      objectReference: {fileID: 0}
+    - target: {fileID: 962815946671200282, guid: cbdabdc719b916a44be1b13b20e62b62,
+        type: 3}
+      propertyPath: goingToIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 962815946671200282, guid: cbdabdc719b916a44be1b13b20e62b62,
+        type: 3}
+      propertyPath: comingFromIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1259333543009117626, guid: cbdabdc719b916a44be1b13b20e62b62,
         type: 3}
       propertyPath: m_Name
