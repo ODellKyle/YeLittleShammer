@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : Character
 {
     public PlayerMovement mvmt;
+    public Transform target;
 
     public void TakeDamage(int damage) 
     {
@@ -19,15 +20,23 @@ public class Enemy : Character
     {
         mvmt = GetComponent<PlayerMovement>();
         hp = 100;
-        speed = 20f;
         jump = true;
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
-        //jump = Player.Instance.jump;
-    }
+        if (Player.Instance.transform.position.magnitude - this.transform.position.magnitude < 5)
+            target = Player.Instance.transform;
+        else
+            target = null;
+
+        velocity = speed * -target.
+        if(target != null) 
+        {
+            mvmt.Move(velocity * Time.fixedDeltaTime, false);
+        }
+    }*/
 
     void FixedUpdate()
     {

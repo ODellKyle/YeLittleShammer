@@ -7,6 +7,8 @@ public class Door : MonoBehaviour
 {
     public string goingTo;
     public int goingToIndex;
+    bool collided = false;
+    Collider2D collider;
 
     public class Coordinates 
     {
@@ -20,9 +22,17 @@ public class Door : MonoBehaviour
         public static List<Vector3> cooridnates = new List<Vector3>(){ tutorial1, firstLevel1, house1, firstLevel2, preFinalLevel1, firstLevel3 };
     }
 
+    private void OnRenderObject()
+    {
+        if (collided) 
+        {
+            Open(collider, goingTo, Coordinates.cooridnates[goingToIndex]);
+            collided = false;
+        }
+    }
+
     public void Open(Collider2D collision, string goingTo, Vector3 goingToVec) 
     {
-        
         if (collision.Equals(Player.Instance.collider))
         {
             SceneManager.LoadScene(goingTo);
@@ -31,6 +41,7 @@ public class Door : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Open(collision, goingTo, Coordinates.cooridnates[goingToIndex]);
+        collided = true;
+        collider = collision;
     }
 }

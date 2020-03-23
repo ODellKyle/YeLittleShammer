@@ -20,8 +20,6 @@ public class Player : Character
     }
 
     public PlayerMovement mvmt;
-    public Vector3 prevLocation;
-    public Vector3 nextLocation;
 
 
     // Start is called before the first frame update
@@ -36,12 +34,17 @@ public class Player : Character
     // Update is called once per frame
     void Update()
     {
-        speed = Input.GetAxisRaw("Horizontal") * 20f;
+        velocity = Input.GetAxisRaw("Horizontal") * speed;
         if (Input.GetButtonDown("Jump"))
             jump = true;
     }
 
     void FixedUpdate()
+    {
+        //Move();
+    }
+
+    private void LateUpdate()
     {
         Move();
     }
@@ -54,7 +57,7 @@ public class Player : Character
 
     public override void Move()
     {
-        mvmt.Move(speed * Time.fixedDeltaTime, jump);
+        mvmt.Move(velocity * Time.fixedDeltaTime, jump);
         jump = false;
     }
 }

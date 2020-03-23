@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public bool onGround = true;
+    public float jumpForce = 250f;
     bool doubleJump = false;
     bool facingRight = true;
 
@@ -15,14 +16,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         onGround = rb.IsTouchingLayers();
         //onGround = Player.Instance.plyrBoxCollider.IsTouchingLayers();
-    }
-
-    void FixedUpdate()
-    {
     }
 
     public void Move(float mvmnt, bool jump) 
@@ -33,18 +30,18 @@ public class PlayerMovement : MonoBehaviour
         if (mvmnt > 0 && !facingRight)
             Flip();
 
-        Vector3 moveVelocity = new Vector2(mvmnt * 10f, rb.velocity.y);
+        Vector3 moveVelocity = new Vector2(mvmnt * 20f, rb.velocity.y);
         rb.velocity = moveVelocity;
 
         if (jump && onGround) 
         {
             onGround = false;
             doubleJump = true;
-            rb.AddForce(new Vector2(0f, 250f));
+            rb.AddForce(new Vector2(0f, jumpForce));
         }
         else if(jump && doubleJump) 
         {
-            rb.AddForce(new Vector2(0f, 250f));
+            rb.AddForce(new Vector2(0f, jumpForce));
             doubleJump = false;
         }
     }
