@@ -37,6 +37,7 @@ public class Door : MonoBehaviour
         {
             SceneManager.LoadScene(goingTo);
             Player.Instance.transform.position = goingToVec;
+            Player.Instance.currentLevel = goingToIndex;
         }
     }
 

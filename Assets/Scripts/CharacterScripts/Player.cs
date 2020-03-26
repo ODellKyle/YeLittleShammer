@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
@@ -20,6 +21,8 @@ public class Player : Character
     }
 
     public PlayerMovement mvmt;
+    public bool hasWeapon;
+    public int currentLevel;
 
 
     // Start is called before the first frame update
@@ -49,6 +52,14 @@ public class Player : Character
     public void TakeDamage(int damage) 
     {
         hp -= damage;
+
+        if(hp <= 0) 
+        {
+            SceneManager.LoadScene("GameOverScene");
+            this.enabled = false;
+            Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
+            hp = 100;
+        }
     }
 
     public override void Move()

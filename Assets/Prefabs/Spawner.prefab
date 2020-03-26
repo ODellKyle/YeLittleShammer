@@ -45,7 +45,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyprefab: {fileID: 7012982748062214382, guid: 3a283eb9d5b2eb447b166843b50a72a4,
     type: 3}
+  explodingEnemyPrefab: {fileID: 6780925860733464777, guid: 4bdd574b3fd03784bb69206ef080da77,
+    type: 3}
   spawner: {fileID: 8603490507850281155}
-  maxEnemies: 1
+  maxEnemies: 2
   currentEnemies: 0
+  currentExplodingEnemies: 0
   spawnActivateDistance: 10
+  explodingEnemySpawner: 0
+  enemySpawner: 1
+  spawnCoolDown: 1

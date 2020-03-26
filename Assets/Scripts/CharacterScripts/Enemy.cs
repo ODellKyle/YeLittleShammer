@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    private PlayerMovement mvmt;
-    private Transform target;
+    protected PlayerMovement mvmt;
+    protected Transform target;
     //TODO: Program so enemy can find platforms and utilize
     //private Transform platform;
-    [Range (.01f, 2f)] [SerializeField] public float accuracy = 1f;
+    [Range (.01f, 2f)] [SerializeField] public float accuracy = .01f;
     [Range(.5f, 10f)] [SerializeField] public float startJumpDistance = 1f;
     [Range(1f, 10f)] [SerializeField] public float lockOnDistance = 5f;
     [Range(1f, 4f)] [SerializeField] public float offset = 1f;
     public int damage = 5;
+    public float coolDown = .1f;
+    private float timer;
 
     public void TakeDamage(int damage) 
     {
@@ -25,10 +27,10 @@ public class Enemy : Character
     // Start is called before the first frame update
     void Start()
     {
-        hp = Random.Range(10, 50);
+        timer = Time.time;
+        hp = Random.Range(100, 150);
         speed = Random.Range(5f, 15f);
         mvmt = GetComponent<PlayerMovement>();
-        collider = GetComponent<BoxCollider2D>();
         jump = true;
     }
 
@@ -36,8 +38,26 @@ public class Enemy : Character
     void LateUpdate()
     {
         Move();
-        if (collider.IsTouching(Player.Instance.collider))
-            HitPlayer();
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (Time.time - timer > coolDown)
+        {
+            Player player = collision.collider.GetComponent<Player>();
+
+            if (player != null)
+            {
+                Strike(player);
+                timer = Time.time;
+            }
+        }
+    }
+
+    private void Strike(Player player) 
+    {
+        //perform striking animation
+        player.TakeDamage(damage);
     }
 
     public override void Move()
@@ -120,10 +140,5 @@ public class Enemy : Character
 
         //if (velocityVector.y > accuracy + startJumpDistance)
             //jump = true;
-    }
-
-    public void HitPlayer() 
-    {
-        Player.Instance.TakeDamage(damage);
     }
 }

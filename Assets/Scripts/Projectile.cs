@@ -9,7 +9,7 @@ public class Projectile : MonoBehaviour
     private Vector3 velX;
     private Vector3 velY;
     private float speed = 400f;
-    public int damage = 10;
+    public int damage = 1;
     private Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -40,15 +40,12 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log(collision.name);
         Enemy enemy = collision.GetComponent<Enemy>();
-        Player player = collision.GetComponent<Player>();
         if (enemy != null) 
         {
             enemy.TakeDamage(damage);
         }
 
-        if (player != null)
-            player.TakeDamage(damage);
-
-        Destroy(gameObject);
+        if(!collision.CompareTag("Projectile"))
+            Destroy(gameObject);
     }
 }

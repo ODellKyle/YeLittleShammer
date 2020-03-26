@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platforms
   - Enemy
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: ignored
+    uniqueID: 140412081
+    locked: 0
   - name: Background
     uniqueID: 1860719177
     locked: 0

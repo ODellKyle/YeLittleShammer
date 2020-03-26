@@ -12,7 +12,7 @@ public class Platform : MonoBehaviour
         collider = GetComponent<Collider2D>();
         platformEffector = GetComponent<PlatformEffector2D>();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
