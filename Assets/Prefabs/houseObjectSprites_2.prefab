@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8233980397979771950}
   - component: {fileID: 320807286092573993}
   - component: {fileID: 4412007146356139714}
+  - component: {fileID: 4829684877955930733}
   m_Layer: 0
   m_Name: houseObjectSprites_2
   m_TagString: Untagged
@@ -108,3 +109,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.46, y: 0.29152435}
   m_EdgeRadius: 0
+--- !u!114 &4829684877955930733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6473655086096722248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3c61d533c8f0141b68c49389b27c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 0}
+  platformEffector: {fileID: 0}

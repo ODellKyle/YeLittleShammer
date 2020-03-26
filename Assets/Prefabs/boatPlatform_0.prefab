@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 2368001479128994843}
   - component: {fileID: 5015000191588909159}
   - component: {fileID: 5625170872554798927}
-  m_Layer: 0
+  - component: {fileID: 2026815196824803093}
+  - component: {fileID: 8546438661391600978}
+  m_Layer: 8
   m_Name: boatPlatform_0
-  m_TagString: Untagged
+  m_TagString: Platforms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1523879945
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 5807390109566734136, guid: 43faddb381b43414aa6f7435ccd8c326,
     type: 3}
@@ -113,7 +115,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.24234772}
   m_SpriteTilingProperty:
@@ -128,3 +130,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.92, y: 0.7053046}
   m_EdgeRadius: 0
+--- !u!251 &2026815196824803093
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471933246024680126}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 130.7
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 0
+--- !u!114 &8546438661391600978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471933246024680126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3c61d533c8f0141b68c49389b27c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 0}
+  platformEffector: {fileID: 0}

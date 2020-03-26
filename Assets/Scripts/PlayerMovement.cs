@@ -6,9 +6,12 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     public bool onGround = true;
-    public float jumpForce = 250f;
+    [Range(100f, 500f)] [SerializeField] public float jumpForce = 250f;
+    [Range(0f, 500f)] [SerializeField] public float doubleJumpForce = 250f;
     bool doubleJump = false;
     bool facingRight = true;
+    [Range(0f, 10f)] [SerializeField] public float velocityLimit = 7.5f;
+    private float velocityCap;
 
     private void Awake()
     {
@@ -19,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         onGround = rb.IsTouchingLayers();
-        //onGround = Player.Instance.plyrBoxCollider.IsTouchingLayers();
     }
 
     public void Move(float mvmnt, bool jump) 
@@ -30,7 +32,12 @@ public class PlayerMovement : MonoBehaviour
         if (mvmnt > 0 && !facingRight)
             Flip();
 
-        Vector3 moveVelocity = new Vector2(mvmnt * 20f, rb.velocity.y);
+        if (rb.velocity.y > velocityLimit)
+            velocityCap = velocityLimit;
+        else
+            velocityCap = rb.velocity.y;
+
+        Vector3 moveVelocity = new Vector2(mvmnt * 20f, velocityCap);
         rb.velocity = moveVelocity;
 
         if (jump && onGround) 
@@ -41,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(jump && doubleJump) 
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
+            rb.AddForce(new Vector2(0f, doubleJumpForce));
             doubleJump = false;
         }
     }

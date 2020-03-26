@@ -25,7 +25,6 @@ public class Player : Character
     // Start is called before the first frame update
     void Start()
     {
-        hp = 100;
         jump = true;
         collider = GetComponent<BoxCollider2D>();
         mvmt = GetComponent<PlayerMovement>();
@@ -39,10 +38,7 @@ public class Player : Character
             jump = true;
     }
 
-    void FixedUpdate()
-    {
-        //Move();
-    }
+
 
     private void LateUpdate()
     {
