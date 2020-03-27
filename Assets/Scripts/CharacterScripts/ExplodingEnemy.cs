@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExplodingEnemy : Enemy
 {
+    public AudioClip explosion;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,9 @@ public class ExplodingEnemy : Enemy
 
     private void Explode(Player player) 
     {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = explosion;
+        audio.Play();
         player.TakeDamage(damage);
         //perform explosion animation
         this.TakeDamage(hp);

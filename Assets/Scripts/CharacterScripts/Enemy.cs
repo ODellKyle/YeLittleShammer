@@ -6,6 +6,7 @@ public class Enemy : Character
 {
     protected PlayerMovement mvmt;
     protected Transform target;
+    public AudioClip dyingSound;
     //TODO: Program so enemy can find platforms and utilize
     //private Transform platform;
     [Range (.01f, 2f)] [SerializeField] public float accuracy = .01f;
@@ -21,7 +22,12 @@ public class Enemy : Character
         hp -= damage;
 
         if (hp <= 0)
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = dyingSound;
+            audio.Play();
             Destroy(gameObject);
+        }
     }
 
     // Start is called before the first frame update

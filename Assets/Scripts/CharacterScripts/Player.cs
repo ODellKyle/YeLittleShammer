@@ -27,7 +27,8 @@ public class Player : Character
     public GameObject weapon;
     public int currentLevel;
     public List<bool> inventory;
-
+    public AudioClip jumpingSound;
+    public AudioClip dyingSound;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,9 @@ public class Player : Character
 
         if(hp <= 0) 
         {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = dyingSound;
+            audio.Play();
             SceneManager.LoadScene("GameOverScene");
             this.enabled = false;
             Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);

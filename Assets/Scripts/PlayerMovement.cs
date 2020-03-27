@@ -45,11 +45,24 @@ public class PlayerMovement : MonoBehaviour
             onGround = false;
             doubleJump = true;
             rb.AddForce(new Vector2(0f, jumpForce));
+            if (rb.CompareTag("Player")) 
+            {
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = Player.Instance.jumpingSound;
+                audio.Play();
+            }
+
         }
         else if(jump && doubleJump) 
         {
             rb.AddForce(new Vector2(0f, doubleJumpForce));
             doubleJump = false;
+            if (rb.CompareTag("Player"))
+            {
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.clip = Player.Instance.jumpingSound;
+                audio.Play();
+            }
         }
     }
 

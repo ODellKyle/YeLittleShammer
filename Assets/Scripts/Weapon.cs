@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject projectileprefab;
+    public AudioClip shootingSound;
     public float coolDown = .5f;
     private float timer;
     // Start is called before the first frame update
@@ -21,8 +22,11 @@ public class Weapon : MonoBehaviour
         {
                 if (Time.time - timer > coolDown)
                 {
+                    AudioSource audio = GetComponent<AudioSource>();
                     Shoot();
                     timer = Time.time;
+                    audio.clip = shootingSound;
+                    audio.Play();
                 }
         }
     }
