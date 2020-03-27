@@ -19,8 +19,11 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetButton("Fire1"))
         {
-            if(Time.time - timer > coolDown)
-                Shoot();
+                if (Time.time - timer > coolDown)
+                {
+                    Shoot();
+                    timer = Time.time;
+                }
         }
     }
 

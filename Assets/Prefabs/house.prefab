@@ -100,18 +100,16 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.0683174, y: -1.0396066}
-  - {x: -1.1954384, y: -0.2966137}
-  - {x: -0.7059593, y: 0.2719071}
-  - {x: -0.6086159, y: 0.2622428}
-  - {x: -0.18037415, y: 0.46023464}
-  - {x: -0.19335556, y: 1.0785527}
-  - {x: -0.024093628, y: 0.4337654}
-  - {x: 0.49129105, y: 0.4071355}
-  - {x: 0.547287, y: 1.0855417}
-  - {x: 0.5657501, y: 0.35330915}
-  - {x: 0.9090729, y: 0.29242563}
-  - {x: 0.99339294, y: -1.2456546}
+  - {x: -1.1316528, y: -1.0075264}
+  - {x: -1.1853905, y: -0.3099537}
+  - {x: -0.73719025, y: 0.21607018}
+  - {x: -0.15771484, y: 0.4405985}
+  - {x: -0.11853409, y: 1.0964255}
+  - {x: 0.5514908, y: 1.1105809}
+  - {x: 0.5773697, y: 0.35717893}
+  - {x: 0.92118454, y: 0.2526722}
+  - {x: 1.0511856, y: -1.2873824}
+  - {x: -1.164917, y: -0.96307707}
 --- !u!251 &7011445913139793439
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -127,7 +125,7 @@ PlatformEffector2D:
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 107.3
+  m_SurfaceArc: 360
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
@@ -156,7 +154,6 @@ GameObject:
   - component: {fileID: 5789920300713662161}
   - component: {fileID: 5789920300713662167}
   - component: {fileID: 5532886535537628544}
-  - component: {fileID: 3200714875902837521}
   m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
@@ -189,7 +186,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.19268417, y: 0.43783522}
   m_SpriteTilingProperty:
@@ -225,22 +222,3 @@ MonoBehaviour:
   - PreFinalLevel
   - FinalLevel
   - FirstLevel
---- !u!251 &3200714875902837521
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5789920300713662160}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 41.2
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 0

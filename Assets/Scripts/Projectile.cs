@@ -16,13 +16,14 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         velX = transform.right;
-        velY = transform.up;
+        velY = Vector3.zero;
         rb = GetComponent<Rigidbody2D>();
         if (Input.GetButton("Fire3"))
         {
             dirX = Input.GetAxisRaw("Fire3");
 
         }
+
         if (Input.GetButton("Fire2"))
         {
             dirY = Input.GetAxisRaw("Fire2");
@@ -45,7 +46,7 @@ public class Projectile : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
-        if(!collision.CompareTag("Projectile"))
+        if(!collision.CompareTag("Projectile") && !collision.CompareTag("Player"))
             Destroy(gameObject);
     }
 }

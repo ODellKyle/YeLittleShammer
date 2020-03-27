@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6841985164210690211}
   - component: {fileID: 6846034908791741924}
   - component: {fileID: 589717007887423896}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: floorSprite
-  m_TagString: Untagged
+  m_TagString: Platforms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1523879945
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6956e5ef6ba231a42af2559c7663bdf2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

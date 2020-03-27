@@ -53,6 +53,9 @@ TagManager:
   - name: Platforms
     uniqueID: 2771087351
     locked: 0
+  - name: Playables
+    uniqueID: 3432422551
+    locked: 0
   - name: Foreground
     uniqueID: 1639401085
     locked: 0

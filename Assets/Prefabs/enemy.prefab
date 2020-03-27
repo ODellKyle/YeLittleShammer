@@ -45,8 +45,10 @@ GameObject:
   - component: {fileID: -9031119746770024584}
   - component: {fileID: -8483649632682233511}
   - component: {fileID: 5170498902928885962}
+  - component: {fileID: 5972101744233541052}
+  - component: {fileID: 7840208381692982254}
   m_Layer: 8
-  m_Name: testenemy
+  m_Name: enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,8 +62,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7012982748062214382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2877188, y: -0.13050751, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.2877188, y: -0.13051, z: 0}
+  m_LocalScale: {x: 0.45749, y: 0.45749, z: 0.45749}
   m_Children:
   - {fileID: 4629937145687267951}
   m_Father: {fileID: 0}
@@ -89,6 +91,7 @@ MonoBehaviour:
   lockOnDistance: 8.06
   offset: 1
   damage: 5
+  coolDown: 0.1
 --- !u!212 &691257424778963123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -124,10 +127,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1523879945
-  m_SortingLayer: 1
+  m_SortingLayerID: -862544745
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b9aa1cd3cf0b8c4ebe83a3326149b6f, type: 3}
+  m_Sprite: {fileID: -5091132638164579347, guid: 6703c10cade32b74b87b1b4df527bd12,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,18 +170,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.45824444}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.44, y: 0.56}
+    oldSize: {x: 1.6, y: 1.81}
     newSize: {x: 0.44, y: 0.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.44, y: 0.56}
+  m_Size: {x: 0.44, y: 0.5854583}
   m_EdgeRadius: 0
 --- !u!50 &-8483649632682233511
 Rigidbody2D:
@@ -216,3 +220,38 @@ MonoBehaviour:
   jumpForce: 250
   doubleJumpForce: 1
   velocityLimit: 7.5
+--- !u!95 &5972101744233541052
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012982748062214382}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3024460bdae2ced4ca5ff702739b1ec3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &7840208381692982254
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012982748062214382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.08273859}
+  serializedVersion: 2
+  m_Radius: 0.65041983

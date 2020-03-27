@@ -18,11 +18,15 @@ public class Player : Character
             DontDestroyOnLoad(this.gameObject);
             instance = this;
         }
+
+        inventory = ItemPickup.Items.items;
+        weapon.SetActive(false);
     }
 
     public PlayerMovement mvmt;
-    public bool hasWeapon;
+    public GameObject weapon;
     public int currentLevel;
+    public List<bool> inventory;
 
 
     // Start is called before the first frame update
@@ -66,5 +70,12 @@ public class Player : Character
     {
         mvmt.Move(velocity * Time.fixedDeltaTime, jump);
         jump = false;
+    }
+    public void ActivateItem(int itemNumber) 
+    {
+        if(itemNumber == 0) 
+        {
+            weapon.SetActive(true);
+        }
     }
 }

@@ -12,9 +12,9 @@ public class Door : MonoBehaviour
     public class Coordinates 
     {
         public static Vector3 tutorial1 = new Vector3(3.315f, -2.86f, 0f);
-        public static Vector3 firstLevel1 = new Vector3(-3.19f, -3.74f, 0f);
+        public static Vector3 firstLevel1 = new Vector3(-4f, -3.65f, 0f);
         public static Vector3 house1 = new Vector3(0f, -1.52f, 0f);
-        public static Vector3 firstLevel2 = new Vector3(43.48f, 4.6f, 0f);
+        public static Vector3 firstLevel2 = new Vector3(23.03f, 5.2f, 0f);
         public static Vector3 preFinalLevel1 = new Vector3(-6.8f, -2.2f, 0f);
         public static Vector3 finalLevel1 = new Vector3(5.46f, -1.78f, 0f);
         public static Vector3 firstLevel3 = new Vector3(0f, 0f, 0f);

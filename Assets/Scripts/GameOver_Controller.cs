@@ -13,18 +13,29 @@ public class GameOver_Controller : MonoBehaviour
     // Start is called before the first frame update
 
 
+    void Start()
+    {
+        if (Player.Instance == null)
+            continueButton.interactable = false;
+        else
+            continueButton.interactable = true;
+    }
+
     public void PlayPressed() 
     {
+        Debug.Log("Play called");
         SceneManager.LoadScene("TutorialScene");
         if(Player.Instance != null) 
         {
             Door door = new Door();
-            Player.Instance.transform.position = new Vector3(-4f, -2.83f, 0f);
+            Player.Instance.transform.position = new Vector3(-5.82f, -2.92f, 0f);
+            Player.Instance.enabled = true;
         }
     }
 
     public void ContinuePressed() 
     {
+        Debug.Log("Continue called");
         if (Player.Instance != null)
         {
             Door door = new Door();
@@ -38,6 +49,7 @@ public class GameOver_Controller : MonoBehaviour
 
     public void MainMenuPressed() 
     {
+        Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
         Player.Instance.enabled = false;
         Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);

@@ -15,6 +15,7 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         pauseMenu.SetActive(false);
+        resumeButton.interactable = true;
     }
 
     // Update is called once per frame
@@ -36,6 +37,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume() 
     {
+        Debug.Log("Resume called");
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
@@ -43,6 +45,7 @@ public class PauseMenu : MonoBehaviour
 
     void Pause() 
     {
+        Debug.Log("Pause called");
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         gameIsPaused = true;
@@ -50,6 +53,7 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenuPressed()
     {
+        Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1f;
         Player.Instance.enabled = false;
