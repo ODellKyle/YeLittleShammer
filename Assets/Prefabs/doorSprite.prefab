@@ -154,6 +154,7 @@ MonoBehaviour:
   goingToIndex: 0
   scenes:
   - TutorialScene
+  - shipscene
   - FirstLevel
   - House
   - FirstLevel

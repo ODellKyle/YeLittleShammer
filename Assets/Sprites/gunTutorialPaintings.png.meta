@@ -1,7 +1,88 @@
 fileFormatVersion: 2
 guid: c24fd4ceaaeda3740be829e96f3e9544
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4398412575333789020
+    second: gunTutorialPaintings_0
+  - first:
+      213: -9175253232204004342
+    second: gunTutorialPaintings_1
+  - first:
+      213: 572415776734038012
+    second: gunTutorialPaintings_2
+  - first:
+      213: -548252252329321685
+    second: gunTutorialPaintings_3
+  - first:
+      213: 1995865479602431483
+    second: gunTutorialPaintings_4
+  - first:
+      213: 5263677054153265435
+    second: gunTutorialPaintings_5
+  - first:
+      213: 8727931033298637624
+    second: gunTutorialPaintings_6
+  - first:
+      213: -8964858043352615137
+    second: gunTutorialPaintings_7
+  - first:
+      213: -6455171344733753297
+    second: gunTutorialPaintings_8
+  - first:
+      213: -6585494019853900993
+    second: gunTutorialPaintings_9
+  - first:
+      213: -3075195079620902510
+    second: gunTutorialPaintings_10
+  - first:
+      213: -7944894396530988843
+    second: gunTutorialPaintings_11
+  - first:
+      213: -5104796749416549989
+    second: gunTutorialPaintings_12
+  - first:
+      213: -6419647314654743299
+    second: gunTutorialPaintings_13
+  - first:
+      213: -6759865815583145861
+    second: gunTutorialPaintings_14
+  - first:
+      213: -9209760476436179251
+    second: gunTutorialPaintings_15
+  - first:
+      213: 1511220263686643298
+    second: gunTutorialPaintings_16
+  - first:
+      213: 3342199322839146779
+    second: gunTutorialPaintings_17
+  - first:
+      213: -2049527600318083793
+    second: gunTutorialPaintings_18
+  - first:
+      213: 3702710071640479707
+    second: gunTutorialPaintings_19
+  - first:
+      213: -7152056426612380875
+    second: gunTutorialPaintings_20
+  - first:
+      213: 1904597327347625038
+    second: gunTutorialPaintings_21
+  - first:
+      213: 3934880996697348861
+    second: gunTutorialPaintings_22
+  - first:
+      213: 5943630651983812347
+    second: gunTutorialPaintings_23
+  - first:
+      213: 8671269021657467379
+    second: gunTutorialPaintings_24
+  - first:
+      213: 8788951249567326224
+    second: gunTutorialPaintings_25
+  - first:
+      213: -7995967766983869156
+    second: gunTutorialPaintings_26
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,9 +121,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -63,7 +144,43 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +189,469 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: gunTutorialPaintings_8
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 654
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb0bd5d16ab41d4dadd50d88bf218ff
+      internalID: -6455171344733753297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_9
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 657
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58408fc054041f249bc9a883e34174b9
+      internalID: -6585494019853900993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_11
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 659
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943906fe49c59514f9f954300b4ef43e
+      internalID: -7944894396530988843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_12
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 664
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6829438ceae2344965870a839284f6
+      internalID: -5104796749416549989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 274
+        width: 119
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d8c5a6cf9f0904cb9d0ab8af439c29
+      internalID: -6419647314654743299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_14
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 520
+        width: 39
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c895e8435e6cd2a4ca067817d1f96ba7
+      internalID: -6759865815583145861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 298
+        width: 113
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5340daf11e84ebc419f4c30ef6c47b12
+      internalID: -9209760476436179251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_16
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 384
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdca70fc05041f478669fd5a388955d
+      internalID: 1511220263686643298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_17
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 431
+        width: 54
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d380f5da32e77e43b53787aa9bb7e20
+      internalID: 3342199322839146779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 417
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8135b71b65361774ab4b427e6681f71f
+      internalID: -2049527600318083793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 272
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a174bae5142a164da4d4cb99d64e97b
+      internalID: 3702710071640479707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 278
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd5ec9d699b9524eb8574e1b305a939
+      internalID: -7152056426612380875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_21
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 286
+        width: 84
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685068c880796c46866a321a0bdc4f9
+      internalID: 1904597327347625038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_22
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 252
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e24e25b9ea9dc54b99b3f73e1d391d1
+      internalID: 3934880996697348861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 151
+        width: 120
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfdb66439310a24d9cb96446956215f
+      internalID: 5943630651983812347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_24
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 267
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a00f7709d00f469ddab45746e5f03
+      internalID: 8671269021657467379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 132
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775395bf9d29bc740912b5bb7281f286
+      internalID: 8788951249567326224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 172
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311cb042059e05e4282f2a41eedb7ccc
+      internalID: -7995967766983869156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_0
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 505
+        width: 678
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9436e13d293961e44b80a4770d8b3acd
+      internalID: -4398412575333789020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 603
+        width: 928
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852b1e8c730845746afae4dad710452d
+      internalID: -9175253232204004342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 90
+        width: 507
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bc9f8235cbf284192ceafcb4016341
+      internalID: 572415776734038012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gunTutorialPaintings_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 391
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4654f647dbc19e941a859572bc9157f6
+      internalID: -548252252329321685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
