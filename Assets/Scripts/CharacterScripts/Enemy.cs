@@ -26,7 +26,7 @@ public class Enemy : Character
             AudioSource audio = GetComponent<AudioSource>();
             audio.clip = dyingSound;
             audio.Play();
-            Destroy(gameObject);
+            Destroy(gameObject, 5f);
         }
     }
 
@@ -34,8 +34,8 @@ public class Enemy : Character
     void Start()
     {
         timer = Time.time;
-        hp = Random.Range(100, 150);
-        speed = Random.Range(5f, 15f);
+        hp = Random.Range(50, 125);
+        speed = Random.Range(5f, 11f);
         mvmt = GetComponent<PlayerMovement>();
         jump = true;
     }

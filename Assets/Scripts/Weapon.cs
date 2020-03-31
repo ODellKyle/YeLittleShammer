@@ -5,6 +5,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     public Transform firePoint;
+    public Rigidbody2D rb;
     public GameObject projectileprefab;
     public AudioClip shootingSound;
     public float coolDown = .5f;
@@ -12,13 +13,15 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        rb = GetComponent<Rigidbody2D>();
         timer = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
                 if (Time.time - timer > coolDown)
                 {

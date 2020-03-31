@@ -38,6 +38,7 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Resume called");
         pauseMenu.SetActive(false);
+        Player.Instance.Inactive(true);
         Time.timeScale = 1f;
         gameIsPaused = false;
     }
@@ -46,6 +47,7 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Pause called");
         pauseMenu.SetActive(true);
+        Player.Instance.Inactive(false);
         Time.timeScale = 0f;
         gameIsPaused = true;
     }
@@ -55,7 +57,7 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1f;
-        Player.Instance.enabled = false;
+        Player.Instance.Inactive(false);
         Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
     }
 

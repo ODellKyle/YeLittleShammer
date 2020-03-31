@@ -17,7 +17,7 @@ public class Door : MonoBehaviour
         public static Vector3 house1 = new Vector3(0f, -1.52f, 0f);
         public static Vector3 firstLevel2 = new Vector3(23.03f, 5.2f, 0f);
         public static Vector3 preFinalLevel1 = new Vector3(-6.8f, -2.2f, 0f);
-        public static Vector3 finalLevel1 = new Vector3(5.46f, -1.78f, 0f);
+        public static Vector3 finalLevel1 = new Vector3(-18.29f, 35.81f, 0f);
         public static Vector3 firstLevel3 = new Vector3(0f, 0f, 0f);
 
         public static List<Vector3> cooridnates = new List<Vector3>(){ tutorial1, shipDeck, firstLevel1, house1, firstLevel2, preFinalLevel1, finalLevel1, firstLevel3 };

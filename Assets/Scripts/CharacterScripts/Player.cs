@@ -64,7 +64,7 @@ public class Player : Character
             audio.clip = dyingSound;
             audio.Play();
             SceneManager.LoadScene("GameOverScene");
-            this.enabled = false;
+            this.Inactive(false);
             Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
             hp = 100;
         }
@@ -81,5 +81,17 @@ public class Player : Character
         {
             weapon.SetActive(true);
         }
+    }
+
+    public void Inactive(bool active) 
+    {
+        this.enabled = active;
+        if(inventory[0])
+            weapon.SetActive(active);
+    }
+
+    public void NewGame() 
+    {
+        inventory[0] = false;
     }
 }

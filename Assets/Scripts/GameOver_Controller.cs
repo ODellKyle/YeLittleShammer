@@ -29,7 +29,9 @@ public class GameOver_Controller : MonoBehaviour
         {
             Door door = new Door();
             Player.Instance.transform.position = new Vector3(-5.82f, -2.92f, 0f);
-            Player.Instance.enabled = true;
+            Player.Instance.NewGame();
+            Player.Instance.Inactive(true);
+
         }
     }
 
@@ -40,7 +42,7 @@ public class GameOver_Controller : MonoBehaviour
         {
             Door door = new Door();
             SceneManager.LoadScene(door.scenes[Player.Instance.currentLevel]);
-            Player.Instance.enabled = true;
+            Player.Instance.Inactive(true);
             Player.Instance.transform.position = Door.Coordinates.cooridnates[Player.Instance.currentLevel];
         }
         else
@@ -51,7 +53,7 @@ public class GameOver_Controller : MonoBehaviour
     {
         Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
-        Player.Instance.enabled = false;
+        Player.Instance.Inactive(true);
         Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
     }
 

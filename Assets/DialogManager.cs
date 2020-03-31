@@ -29,7 +29,7 @@ public class DialogManager : MonoBehaviour
         HUD.SetActive(false);
         DialogBox.SetActive(true);
 
-        Player.Instance.enabled = false;
+        Player.Instance.Inactive(false);
         nameText.text = dialog.name;
 
         this.sentances.Clear();
@@ -59,7 +59,7 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialogue() 
     {
-        Player.Instance.enabled = true;
+        Player.Instance.Inactive(true);
         Debug.Log("End conversation");
         HUD.SetActive(true);
         DialogBox.SetActive(false);

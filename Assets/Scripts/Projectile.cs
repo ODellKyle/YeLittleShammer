@@ -8,8 +8,8 @@ public class Projectile : MonoBehaviour
     private float dirY = 0;
     private Vector3 velX;
     private Vector3 velY;
-    private float speed = 400f;
-    public int damage = 1;
+    public float speed = 400f;
+    public int damage = 10;
     private Rigidbody2D rb;
 
     // Start is called before the first frame update

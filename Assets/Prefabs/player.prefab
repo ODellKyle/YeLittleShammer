@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1379955770493283473}
   - component: {fileID: 2120321470513050459}
   - component: {fileID: 6766908331675008187}
+  - component: {fileID: 2846767743591164210}
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282908052340763596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.43, y: 0.54, z: 0}
+  m_LocalPosition: {x: 0.42999962, y: 0.5400001, z: -1.8956192e-10}
   m_LocalScale: {x: 0.56015, y: 0.56015, z: 0.56015}
   m_Children:
   - {fileID: 3928748250740181025}
@@ -96,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 3928748250740181025}
+  rb: {fileID: 0}
   projectileprefab: {fileID: 5956483246618917264, guid: e8ae77f73d5eb6440813fb79e00872bf,
     type: 3}
   shootingSound: {fileID: 8300000, guid: 961a8774af259e445a4ea19d17ab8b19, type: 3}
@@ -196,6 +198,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!50 &2846767743591164210
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282908052340763596}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1282908052876914500
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,14 +320,14 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.4
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1282908052876914501
 MonoBehaviour:
@@ -319,8 +342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onGround: 1
-  jumpForce: 250
-  doubleJumpForce: 250
+  jumpForce: 350
+  doubleJumpForce: 350
   velocityLimit: 8
 --- !u!114 &1282908052876914554
 MonoBehaviour:
