@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2431172308364351681}
   - component: {fileID: 6841985164210690211}
   - component: {fileID: 6846034908791741924}
-  - component: {fileID: 589717007887423896}
   m_Layer: 8
   m_Name: floorSprite
   m_TagString: Platforms
@@ -162,17 +161,3 @@ EdgeCollider2D:
   - {x: 1.4834131, y: -4.0304885}
   - {x: 8.636651, y: -4.053897}
   - {x: 14.945, y: -1.5232959}
---- !u!114 &589717007887423896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2431172308364351680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d3c61d533c8f0141b68c49389b27c86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collider: {fileID: 0}
-  platformEffector: {fileID: 0}

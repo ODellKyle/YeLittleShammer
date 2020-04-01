@@ -34,7 +34,6 @@ public class Player : Character
     void Start()
     {
         jump = true;
-        collider = GetComponent<BoxCollider2D>();
         mvmt = GetComponent<PlayerMovement>();
     }
 

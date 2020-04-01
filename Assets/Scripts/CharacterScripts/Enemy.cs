@@ -115,36 +115,4 @@ public class Enemy : Character
             velocity = 0f;
     }
 
-    public Transform FindPlatform() 
-    {
-        int layerMask = 8;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.up * 100f, layerMask);
-        RaycastHit2D hit2 = Physics2D.Raycast(transform.position, -Vector2.up, 4f, layerMask);
-
-
-        if(hit.collider != null)
-        {
-
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector2.up) * hit.distance, Color.black);
-            Debug.Log("cast hit!");
-        }
-
-        return hit.transform;
-    }
-
-    public void JumpPlatform(Transform platform, Vector3 velocityVector) 
-    {
-        velocityVector = platform.position - this.transform.position;
-        
-        Debug.DrawRay(transform.position, velocityVector, Color.black);
-        if (velocityVector.x < platform.localPosition.x + offset && velocityVector.x > 0)
-            velocity = speed;
-        else if (velocityVector.x > platform.localPosition.x + -offset && velocityVector.x < 0)
-            velocity = -speed;
-        else
-            jump = true;
-
-        //if (velocityVector.y > accuracy + startJumpDistance)
-            //jump = true;
-    }
 }

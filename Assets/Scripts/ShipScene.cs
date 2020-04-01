@@ -22,7 +22,8 @@ public class ShipScene : MonoBehaviour
         if ((Time.time - timer > timeUntilLanding) && Player.Instance.enabled) 
         {
             SceneManager.LoadScene("FirstLevel");
-            Player.Instance.transform.position = Door.Coordinates.cooridnates[1]; 
+            Player.Instance.transform.position = Door.Coordinates.cooridnates[2];
+            Player.Instance.currentLevel = 2;
         }
     }
 }

@@ -6,8 +6,6 @@ public class Projectile : MonoBehaviour
 {
     private float dirX = 0;
     private float dirY = 0;
-    private Vector3 velX;
-    private Vector3 velY;
     public float speed = 400f;
     public int damage = 10;
     private Rigidbody2D rb;
@@ -15,8 +13,8 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        velX = transform.right;
-        velY = Vector3.zero;
+        Vector3 velX = transform.right;
+        Vector3 velY = Vector3.zero;
         rb = GetComponent<Rigidbody2D>();
         if (Input.GetButton("Fire3"))
         {

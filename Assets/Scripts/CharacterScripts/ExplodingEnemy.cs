@@ -12,7 +12,6 @@ public class ExplodingEnemy : Enemy
         speed = Random.Range(10f, 15f);
         damage = 30;
         mvmt = GetComponent<PlayerMovement>();
-        collider = GetComponent<BoxCollider2D>();
         jump = true;
     }
 

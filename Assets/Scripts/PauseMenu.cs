@@ -4,13 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//Inspired by Brackeys
 public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
     public GameObject pauseMenu;
-    public Button resumeButton;
-    public Button menuButton;
-    public Button quitButton;
 
     void Start()
     {

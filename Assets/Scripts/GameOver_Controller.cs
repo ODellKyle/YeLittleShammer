@@ -7,12 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameOver_Controller : MonoBehaviour
 {
     public Button continueButton;
-    public Button mainMenuButton;
-    public Button quitButton;
-    public Text noPlayer;
+
     // Start is called before the first frame update
-
-
     void Start()
     {
         if (Player.Instance == null)
@@ -38,15 +34,10 @@ public class GameOver_Controller : MonoBehaviour
     public void ContinuePressed() 
     {
         Debug.Log("Continue called");
-        if (Player.Instance != null)
-        {
-            Door door = new Door();
-            SceneManager.LoadScene(door.scenes[Player.Instance.currentLevel]);
-            Player.Instance.Inactive(true);
-            Player.Instance.transform.position = Door.Coordinates.cooridnates[Player.Instance.currentLevel];
-        }
-        else
-            noPlayer.text = "You haven't started a game yet.";
+        Door door = new Door();
+        SceneManager.LoadScene(door.scenes[Player.Instance.currentLevel]);
+        Player.Instance.Inactive(true);
+        Player.Instance.transform.position = Door.Coordinates.cooridnates[Player.Instance.currentLevel];
     }
 
     public void MainMenuPressed() 

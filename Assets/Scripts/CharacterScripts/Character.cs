@@ -8,7 +8,6 @@ public abstract class Character : MonoBehaviour
     [Range (5f, 20f)] [SerializeField] public float speed = 10f;
     public float velocity;
     public bool jump;
-    public Collider2D collider;
 
     public abstract void Move();
 }

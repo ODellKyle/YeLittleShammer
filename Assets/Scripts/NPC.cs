@@ -20,7 +20,6 @@ public class NPC : Character
     void Start()
     {
         dialogTriggered = false;
-        collider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
