@@ -287,6 +287,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 1282908052876914501, guid: 6bd591473945e6048ac7312cd864f40f,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 1282908052876914552, guid: 6bd591473945e6048ac7312cd864f40f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5157,6 +5162,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: mudSprites_6 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4780324154336446149, guid: ce2c4b82336d8894b9a6aabf3d298f41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7061089906088920082, guid: ce2c4b82336d8894b9a6aabf3d298f41,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5741,6 +5751,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: mudSprites_6 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780324154336446149, guid: ce2c4b82336d8894b9a6aabf3d298f41,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7061089906088920082, guid: ce2c4b82336d8894b9a6aabf3d298f41,
         type: 3}
@@ -6517,7 +6532,7 @@ PrefabInstance:
     - target: {fileID: 1448123141473515902, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3996474021504696193, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}

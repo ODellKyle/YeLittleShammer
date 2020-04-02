@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7271721619879345553}
   - component: {fileID: 8455436227474397074}
   - component: {fileID: 5516885443732137205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mudSprites_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 281919028899270381}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a9965e9abca4e54468c3f47179404972, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

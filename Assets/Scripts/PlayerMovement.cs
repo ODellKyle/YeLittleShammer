@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [Range(0f, 500f)] [SerializeField] public float doubleJumpForce = 250f;
     bool doubleJump = false;
     bool facingRight = true;
+    [SerializeField] public LayerMask whatIsGround;
     [Range(0f, 10f)] [SerializeField] public float velocityLimit = 7.5f;
     private float velocityCap;
 
@@ -21,9 +22,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        onGround = rb.IsTouchingLayers();
+        onGround = rb.IsTouchingLayers(whatIsGround);
     }
 
     public void Move(float mvmnt, bool jump) 
