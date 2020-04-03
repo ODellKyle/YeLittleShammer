@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 3928748250740181025}
-  rb: {fileID: 0}
   projectileprefab: {fileID: 5956483246618917264, guid: e8ae77f73d5eb6440813fb79e00872bf,
     type: 3}
   shootingSound: {fileID: 8300000, guid: 961a8774af259e445a4ea19d17ab8b19, type: 3}
@@ -344,6 +343,9 @@ MonoBehaviour:
   onGround: 1
   jumpForce: 350
   doubleJumpForce: 350
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
   velocityLimit: 8
 --- !u!114 &1282908052876914554
 MonoBehaviour:
@@ -361,7 +363,6 @@ MonoBehaviour:
   speed: 10
   velocity: 0
   jump: 0
-  collider: {fileID: 0}
   mvmt: {fileID: 0}
   weapon: {fileID: 1282908052340763596}
   currentLevel: 0

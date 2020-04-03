@@ -23,13 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/House.unity
     guid: 91695f58fb562324095d8314a06eeea1
-  - enabled: 1
-    path: Assets/Scenes/PreFinalLevel.unity
-    guid: 6f8d051af21fbaa4c8f3d2601d3cc847
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/FinalLevel.unity
     guid: 728d34aa38c5dae4fbe19babc6ee1d8f
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: d362e6ff425f23c4cbd12eca2d222741
+  - enabled: 1
+    path: Assets/Scenes/CheckPoint.unity
+    guid: 2a3a7594c53f1fc4380ec26feb4d4b29
   m_configObjects: {}

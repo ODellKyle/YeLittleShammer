@@ -5,11 +5,12 @@ using UnityEngine;
 public class ExplodingEnemy : Enemy
 {
     public AudioClip explosion;
+    private bool exploded = false;
     // Start is called before the first frame update
     void Start()
     {
-        hp = Random.Range(50, 100);
-        speed = Random.Range(10f, 15f);
+        hp = Random.Range(5, 15);
+        speed = Random.Range(2f, 4f);
         damage = 30;
         mvmt = GetComponent<PlayerMovement>();
         jump = true;
@@ -33,11 +34,15 @@ public class ExplodingEnemy : Enemy
 
     private void Explode(Player player) 
     {
-        AudioSource audio = GetComponent<AudioSource>();
-        audio.clip = explosion;
-        audio.Play();
-        player.TakeDamage(damage);
-        //perform explosion animation
-        this.TakeDamage(hp);
+        if (!exploded)
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = explosion;
+            audio.Play();
+            player.TakeDamage(damage);
+            //perform explosion animation
+            this.TakeDamage(hp);
+            exploded = true;
+        }
     }
 }

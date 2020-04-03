@@ -26,7 +26,7 @@ public class Enemy : Character
             AudioSource audio = GetComponent<AudioSource>();
             audio.clip = dyingSound;
             audio.Play();
-            Destroy(gameObject, 5f);
+            Destroy(gameObject, 1.2f);
         }
     }
 

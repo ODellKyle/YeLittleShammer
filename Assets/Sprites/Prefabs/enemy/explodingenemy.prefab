@@ -104,14 +104,13 @@ MonoBehaviour:
   speed: 10
   velocity: 0
   jump: 0
-  collider: {fileID: 0}
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
   accuracy: 0.01
   startJumpDistance: 1
-  lockOnDistance: 5
+  lockOnDistance: 6.55
   offset: 1
-  damage: 5
-  coolDown: 0.1
+  damage: 20
+  coolDown: 15
   explosion: {fileID: 8300000, guid: 26ed2afba00983a4a8f008241fb4a847, type: 3}
 --- !u!114 &1638384742264160579
 MonoBehaviour:
@@ -128,6 +127,9 @@ MonoBehaviour:
   onGround: 1
   jumpForce: 250
   doubleJumpForce: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
   velocityLimit: 7.5
 --- !u!50 &5254551378145026639
 Rigidbody2D:

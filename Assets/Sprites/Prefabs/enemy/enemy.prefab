@@ -54,7 +54,6 @@ MonoBehaviour:
   speed: 8.4
   velocity: 0
   jump: 1
-  collider: {fileID: 0}
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
   accuracy: 1
   startJumpDistance: 0.8
@@ -174,6 +173,9 @@ MonoBehaviour:
   onGround: 1
   jumpForce: 250
   doubleJumpForce: 1
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
   velocityLimit: 7.5
 --- !u!95 &5972101744233541052
 Animator:
