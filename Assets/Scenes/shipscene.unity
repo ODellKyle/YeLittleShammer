@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 1341995822}
   - component: {fileID: 1341995824}
   - component: {fileID: 1341995823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shipDeckbckgrond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ PrefabInstance:
     - target: {fileID: 2423464167638287131, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2553144759719079347, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
@@ -954,6 +954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisplayNextSentance
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631199896497586215, guid: e9d1e3079c81ac04395eb705d6ae28cc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9d1e3079c81ac04395eb705d6ae28cc, type: 3}

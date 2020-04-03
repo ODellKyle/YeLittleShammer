@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8864484868244304262}
   - component: {fileID: 8864484868244304261}
   - component: {fileID: 8864484868244304260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NPCSprite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,6 @@ MonoBehaviour:
   speed: 10
   velocity: 0
   jump: 0
-  collider: {fileID: 0}
   dialog:
     name: Captain Cah
     sentances:

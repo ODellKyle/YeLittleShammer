@@ -563,15 +563,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: boatPlatform_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5471933246024680126, guid: 829bcfe0b1058c94caeeca4549d6e2cf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6877760507753063859, guid: 829bcfe0b1058c94caeeca4549d6e2cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -153.06812
+      value: -146.81
       objectReference: {fileID: 0}
     - target: {fileID: 6877760507753063859, guid: 829bcfe0b1058c94caeeca4549d6e2cf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -85.028046
+      value: -84.84
       objectReference: {fileID: 0}
     - target: {fileID: 6877760507753063859, guid: 829bcfe0b1058c94caeeca4549d6e2cf,
         type: 3}
@@ -3993,6 +3998,26 @@ PrefabInstance:
     - target: {fileID: 1282908052876914552, guid: 6bd591473945e6048ac7312cd864f40f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459535693530417287, guid: 6bd591473945e6048ac7312cd864f40f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5459535693530417287, guid: 6bd591473945e6048ac7312cd864f40f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867035534713516780, guid: 6bd591473945e6048ac7312cd864f40f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867035534713516780, guid: 6bd591473945e6048ac7312cd864f40f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

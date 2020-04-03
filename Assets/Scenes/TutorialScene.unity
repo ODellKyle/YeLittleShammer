@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 2084006347}
   - component: {fileID: 2084006348}
   - component: {fileID: 2084006349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mudRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
