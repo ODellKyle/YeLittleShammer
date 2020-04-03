@@ -567,17 +567,17 @@ MonoBehaviour:
     Kyle Molina Sanchez O''Dell
 
 
-    Shooting/Movement mechanics inspired by: Brakeys
+    Shooting/Movement mechanics inspired by: Brackeys
 
 
     Dialog mechanics:
 
-    Brakeys
+    Brackeys
 
 
     Pause menu inspired by:
 
-    Brakeys'
+    Brackeys'
 --- !u!222 &561440831
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -661,7 +661,10 @@ MonoBehaviour:
 
     Enemy detect/follow player mechanics:
 
-    Kyle Molina Sanchez O''Dell''s Linear Algebra skills'
+    Kyle Molina Sanchez O''Dell''s Linear Algebra skills
+
+
+    Health Bar mechanics inspired by: Brackeys'
 --- !u!222 &678842579
 CanvasRenderer:
   m_ObjectHideFlags: 0
