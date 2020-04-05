@@ -306,7 +306,7 @@ RectTransform:
   m_Children:
   - {fileID: 208273}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -435,7 +435,7 @@ RectTransform:
   m_Children:
   - {fileID: 1786053225}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -721,7 +721,7 @@ RectTransform:
   m_Children:
   - {fileID: 1029378958}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -973,6 +973,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1691215888}
+  - {fileID: 782258292}
+  - {fileID: 2143944291}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -986,7 +988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 782258292}
   - component: {fileID: 782258291}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: titleSprites_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1032,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1860719177
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: 27
   m_Sprite: {fileID: 6505301802648903280, guid: 9574baa7a5101274d9c2547bc7813d3b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1051,10 +1053,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782258290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -62.53859, y: 20.246305, z: -4049.2612}
-  m_LocalScale: {x: 29.874548, y: 28.254845, z: 44.99179}
+  m_LocalPosition: {x: -1.3900001, y: 0.45000002, z: 10}
+  m_LocalScale: {x: 0.664, y: 0.628, z: 1}
   m_Children: []
-  m_Father: {fileID: 1015129041}
+  m_Father: {fileID: 519420032}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &863043429
@@ -1091,7 +1093,7 @@ RectTransform:
   - {fileID: 2041682868}
   - {fileID: 1887691142}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1242,8 +1244,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 6555682259853060003}
-  - {fileID: 782258292}
-  - {fileID: 2143944291}
   - {fileID: 113636758}
   - {fileID: 252850375}
   - {fileID: 2133240577}
@@ -1427,7 +1427,7 @@ RectTransform:
   m_Children:
   - {fileID: 994478744}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2386,7 +2386,7 @@ RectTransform:
   m_Children:
   - {fileID: 1600214612}
   m_Father: {fileID: 1015129041}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2493,7 +2493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143944291}
   - component: {fileID: 2143944290}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: titleSprites_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2537,7 +2537,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1860719177
   m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingOrder: 26
   m_Sprite: {fileID: -3111739447443436748, guid: 9574baa7a5101274d9c2547bc7813d3b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2558,10 +2558,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143944289}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -206.15237, y: 108.34023, z: -4049.2612}
-  m_LocalScale: {x: 75.27126, y: 61.14384, z: 44.99179}
+  m_LocalPosition: {x: -4.582, y: 2.408, z: 10}
+  m_LocalScale: {x: 1.673, y: 1.359, z: 1}
   m_Children: []
-  m_Father: {fileID: 1015129041}
+  m_Father: {fileID: 519420032}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &994708228719798767
