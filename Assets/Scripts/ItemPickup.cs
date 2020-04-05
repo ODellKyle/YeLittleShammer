@@ -10,7 +10,8 @@ public class ItemPickup : MonoBehaviour
     public class Items 
     {
         static bool weapon = false;
-        public static List<bool> items = new List<bool>() { weapon };
+        static bool key = false;
+        public static List<bool> items = new List<bool>() { weapon, key };
     }
     // Start is called before the first frame update
     void Start()

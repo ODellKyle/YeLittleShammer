@@ -1464,7 +1464,7 @@ PrefabInstance:
     - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}
       propertyPath: scenes.Array.size
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}
@@ -1479,12 +1479,27 @@ PrefabInstance:
     - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}
       propertyPath: goingToIndex
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}
       propertyPath: scenes.Array.data[6]
       value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: scenes.Array.data[7]
+      value: CheckPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: scenes.Array.data[8]
+      value: FinalLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684005806047178257, guid: 69209f56fea05cd45bc39017bdd3c052,
+        type: 3}
+      propertyPath: scenes.Array.data[9]
+      value: ExtraLevel
       objectReference: {fileID: 0}
     - target: {fileID: 7476006444580586289, guid: 69209f56fea05cd45bc39017bdd3c052,
         type: 3}

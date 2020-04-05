@@ -92,5 +92,6 @@ public class Player : Character
     public void NewGame() 
     {
         inventory[0] = false;
+        inventory[1] = false;
     }
 }
