@@ -47,11 +47,15 @@ MonoBehaviour:
     type: 3}
   explodingEnemyPrefab: {fileID: 6780925860733464777, guid: 4bdd574b3fd03784bb69206ef080da77,
     type: 3}
+  bossEnemyPrefab: {fileID: 6165311768131023389, guid: 97c34969089e1ab42bd3b77a8b6d5d7f,
+    type: 3}
   spawner: {fileID: 8603490507850281155}
   maxEnemies: 2
   currentEnemies: 0
   currentExplodingEnemies: 0
+  currentBossEnemies: 0
   spawnActivateDistance: 10
   explodingEnemySpawner: 0
   enemySpawner: 1
+  bossEnemySpawner: 0
   spawnCoolDown: 1

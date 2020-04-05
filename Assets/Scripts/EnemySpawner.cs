@@ -6,13 +6,16 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyprefab;
     public GameObject explodingEnemyPrefab;
+    public GameObject bossEnemyPrefab;
     public Transform spawner;
     public int maxEnemies = 1;
     public int currentEnemies = 0;
     public int currentExplodingEnemies = 0;
+    public int currentBossEnemies = 0;
     public float spawnActivateDistance = 10;
     public bool explodingEnemySpawner = false;
     public bool enemySpawner = false;
+    public bool bossEnemySpawner = false;
     public float spawnCoolDown = 5f;
     private float timer;
     // Start is called before the first frame update
@@ -24,7 +27,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentEnemies < maxEnemies && currentExplodingEnemies < maxEnemies)
+        if (currentEnemies < maxEnemies && currentExplodingEnemies < maxEnemies && currentBossEnemies < maxEnemies)
         {
             if ((spawner.position - Player.Instance.transform.position).magnitude < spawnActivateDistance)
             {
@@ -34,9 +37,18 @@ public class EnemySpawner : MonoBehaviour
                         SpawnEnemies();
                     else if (explodingEnemySpawner)
                         SpawnExplodingEnemies();
+                    else if (bossEnemySpawner)
+                        SpawnBossEnemies();
                 }
             }
         } 
+    }
+
+    void SpawnBossEnemies() 
+    {
+        Instantiate(bossEnemyPrefab, spawner.position, spawner.rotation);
+        currentBossEnemies++;
+        timer = Time.time;
     }
 
     void SpawnEnemies() 

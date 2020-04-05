@@ -3963,12 +3963,12 @@ PrefabInstance:
     - target: {fileID: 1282908052876914552, guid: 6bd591473945e6048ac7312cd864f40f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103.22
+      value: 117.48
       objectReference: {fileID: 0}
     - target: {fileID: 1282908052876914552, guid: 6bd591473945e6048ac7312cd864f40f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.71
+      value: 50.82
       objectReference: {fileID: 0}
     - target: {fileID: 1282908052876914552, guid: 6bd591473945e6048ac7312cd864f40f,
         type: 3}
@@ -6865,32 +6865,32 @@ PrefabInstance:
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.size
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[0]
-      value: So the story is over for you thus far...
+      value: You are nearing the end
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[1]
-      value: '...but that doesn''t mean the story is over.'
+      value: Well, the end SO FAR.
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[2]
-      value: I hope you've enjoyed my demo, this world I've created.
+      value: Beyond this door is a simple puzzle.
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[3]
-      value: I wouldn't say we're friends, I mean, I don't even know your name.
+      value: Solve it, and you shall be closer to home.
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[4]
-      value: BUT.
+      value: Be safe, YE LITTLE SHAMMER!
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
