@@ -72,11 +72,12 @@ public class IntermLevelPuzzle : MonoBehaviour
         if (!Player.Instance.inventory[1])
         {
             key.SetActive(BossEnemy.bossDefeated);
-
+            
             bossSpawner.SetActive(true);
         }
 
         door.SetActive(Lock.unlocked);
+        NPC.SetActive(Lock.unlocked);
 
         Debug.Log("Unlocked!");
     }

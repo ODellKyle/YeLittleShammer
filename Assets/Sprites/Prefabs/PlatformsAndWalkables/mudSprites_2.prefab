@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6340392131712465846}
   - component: {fileID: 531314302335268810}
   - component: {fileID: 8617349316932369550}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: mudSprites_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,8 +67,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1523879945
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -7720867324407490694, guid: 152dee3f08c3f7e46983c3d1d9040932,
     type: 3}

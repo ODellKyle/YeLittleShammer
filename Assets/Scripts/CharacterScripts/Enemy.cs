@@ -15,7 +15,7 @@ public class Enemy : Character
     [Range(1f, 4f)] [SerializeField] public float offset = 1f;
     public int damage = 5;
     public float coolDown = .1f;
-    private float timer;
+    protected float timer;
 
     public void TakeDamage(int damage) 
     {
@@ -60,7 +60,7 @@ public class Enemy : Character
         }
     }
 
-    private void Strike(Player player) 
+    protected void Strike(Player player) 
     {
         //perform striking animation
         player.TakeDamage(damage);

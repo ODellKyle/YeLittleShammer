@@ -9,8 +9,11 @@ public class Door : MonoBehaviour
     bool collided = false;
     Collider2D collider;
     public List<string> scenes = new List<string>() 
-    { "TutorialScene", "shipscene", "FirstLevel", "House", "FirstLevel",  
-        "FinalLevel", "Credits", "CheckPoint", "FinalLevel", "ExtraLevel" };
+    { 
+        "TutorialScene", "shipscene", "FirstLevel", "House", "FirstLevel",  
+        "FinalLevel", "Credits", "CheckPoint", "FinalLevel", "ExtraLevel", 
+        "FinalLevel" 
+    };
     public class Coordinates 
     {
         public static Vector3 tutorial1 = new Vector3(3.315f, -2.86f, 0f);
@@ -23,10 +26,14 @@ public class Door : MonoBehaviour
         public static Vector3 checkpoint = new Vector3(6.41f, -2.9f, 0f);
         public static Vector3 checkpointreturn1 = new Vector3(104.9f, 5.6f, 0f);
         public static Vector3 intermLevel = new Vector3(0f, 0f, 0f);
+        public static Vector3 checkpointreturn2 = new Vector3(-3.08f, 47.69f, 0f);
 
         public static List<Vector3> cooridnates = new List<Vector3>()
-        { tutorial1, shipDeck, firstLevel1, house1, firstLevel2, 
-            finalLevel1, credits, checkpoint, checkpointreturn1, intermLevel};
+        { 
+            tutorial1, shipDeck, firstLevel1, house1, firstLevel2, 
+            finalLevel1, credits, checkpoint, checkpointreturn1, intermLevel, 
+            checkpointreturn2
+        };
     }
 
     private void OnRenderObject()
