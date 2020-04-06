@@ -5,6 +5,7 @@ using UnityEngine;
 public class BossEnemy : Enemy
 {
     public static bool bossDefeated = false;
+    public static bool bossActivated = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,13 +14,17 @@ public class BossEnemy : Enemy
         damage = 5;
         mvmt = GetComponent<PlayerMovement>();
         jump = true;
+        bossActivated = true;
     }
 
     void LateUpdate()
     {
         Move();
         if (hp <= 0)
+        {
             bossDefeated = true;
+            bossActivated = false;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)

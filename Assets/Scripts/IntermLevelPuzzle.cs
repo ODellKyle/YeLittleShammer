@@ -13,6 +13,7 @@ public class IntermLevelPuzzle : MonoBehaviour
     public GameObject door;
     public GameObject bossSpawner;
     public GameObject NPC;
+    public GameObject block;
 
     public GameObject key;
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         pressurePlate3.SetSteppedOn(false);
         bossSpawner.SetActive(false);
         NPC.SetActive(false);
+        block.SetActive(false);
     }
 
     // Update is called once per frame
@@ -74,6 +76,7 @@ public class IntermLevelPuzzle : MonoBehaviour
             key.SetActive(BossEnemy.bossDefeated);
             
             bossSpawner.SetActive(true);
+            block.SetActive(BossEnemy.bossActivated);
         }
 
         door.SetActive(Lock.unlocked);
@@ -94,5 +97,6 @@ public class IntermLevelPuzzle : MonoBehaviour
         bossSpawner.SetActive(false);
         door.SetActive(false);
         NPC.SetActive(false);
+        BossEnemy.bossActivated = false;
     }
 }
