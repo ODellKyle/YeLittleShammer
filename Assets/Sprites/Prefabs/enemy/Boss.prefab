@@ -134,7 +134,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &8295003379442340409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c359a4bdebb20d64d889336b75c63bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 200
+  hp: 500
   speed: 6.7
   velocity: 0
   jump: 0
@@ -303,7 +303,7 @@ PrefabInstance:
         type: 3}
       propertyPath: character
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4702131728539220229}
     - target: {fileID: 1621718003916191108, guid: 6aef5d4b8a18b1a42b276598b826b7bb,
         type: 3}
       propertyPath: m_LocalPosition.x

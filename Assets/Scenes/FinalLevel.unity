@@ -2643,7 +2643,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 24
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &510857294 stripped
 Transform:
@@ -5932,7 +5932,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6953,6 +6953,7 @@ Transform:
   - {fileID: 1596205834}
   - {fileID: 958791512}
   - {fileID: 151024431}
+  - {fileID: 510649109}
   - {fileID: 1836401861}
   - {fileID: 2006026855}
   - {fileID: 1898248569}
@@ -6960,6 +6961,7 @@ Transform:
   - {fileID: 891769674}
   - {fileID: 1086809191}
   - {fileID: 48769250}
+  - {fileID: 2077454254}
   - {fileID: 999962738}
   - {fileID: 1362878389}
   - {fileID: 1875460249}
@@ -6970,13 +6972,13 @@ Transform:
   - {fileID: 1715452302}
   - {fileID: 1750036982}
   - {fileID: 510857294}
-  - {fileID: 510649109}
-  - {fileID: 2077454254}
   - {fileID: 1322089053}
   - {fileID: 1161828824}
   - {fileID: 245345240}
+  - {fileID: 1926807958001091224}
   - {fileID: 1743391250}
   - {fileID: 511857089}
+  - {fileID: 6877760506768399682}
   - {fileID: 1160854872}
   - {fileID: 928899124}
   - {fileID: 730464315}
@@ -6985,7 +6987,7 @@ Transform:
   - {fileID: 1218865712}
   - {fileID: 1509486160}
   - {fileID: 147126846}
-  - {fileID: 1926807958001091224}
+  - {fileID: 6877760506123087444}
   - {fileID: 2080681558}
   - {fileID: 595497014}
   - {fileID: 2067293609}
@@ -6994,10 +6996,9 @@ Transform:
   - {fileID: 923933943}
   - {fileID: 144064579}
   - {fileID: 668676773}
-  - {fileID: 6877760506768399682}
   - {fileID: 967067498}
   - {fileID: 1415680909}
-  - {fileID: 6877760506123087444}
+  - {fileID: 1839966079}
   - {fileID: 1068901644}
   - {fileID: 743322436}
   - {fileID: 712748883}
@@ -7019,7 +7020,6 @@ Transform:
   - {fileID: 1073996598}
   - {fileID: 1811122284}
   - {fileID: 1203700289}
-  - {fileID: 1839966079}
   - {fileID: 88000071}
   - {fileID: 1223306812}
   - {fileID: 693107636}
@@ -7047,6 +7047,7 @@ Transform:
   - {fileID: 2068533200}
   - {fileID: 373526343}
   - {fileID: 2112954622}
+  - {fileID: 1637937908}
   - {fileID: 893912258}
   - {fileID: 980134844}
   - {fileID: 1490534423}
@@ -7061,7 +7062,6 @@ Transform:
   - {fileID: 517986095}
   - {fileID: 439000596}
   - {fileID: 699786640}
-  - {fileID: 1637937908}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8326,7 +8326,7 @@ Transform:
   - {fileID: 1310179770}
   - {fileID: 967028155}
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 115
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1645453726
 PrefabInstance:
@@ -9502,7 +9502,7 @@ Transform:
   - {fileID: 1858768707}
   - {fileID: 1610576127}
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 73
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1852928316 stripped
 Transform:
@@ -10438,7 +10438,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 25
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2080681558 stripped
 Transform:
@@ -10722,7 +10722,7 @@ Transform:
   m_LocalScale: {x: 0.775, y: 0.825, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 39
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!251 &2026815195395649508
 PlatformEffector2D:
@@ -11188,7 +11188,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 51
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6877760506768399682
 Transform:
@@ -11202,5 +11202,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 48
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

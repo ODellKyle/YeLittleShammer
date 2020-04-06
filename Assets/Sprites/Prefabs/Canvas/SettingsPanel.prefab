@@ -149,7 +149,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 3
+    m_LineSpacing: 2.5
   m_Text: 'W - Jump            W (x2) - Double Jump
 
     A - Move left
@@ -158,7 +158,7 @@ MonoBehaviour:
 
     S(hold) - Fall through platform
 
-    Space - Shoot gun (if equiped)'
+    Arrow Keys - Shoot Gun (if aquired)'
 --- !u!1 &3247046719233417598
 GameObject:
   m_ObjectHideFlags: 0

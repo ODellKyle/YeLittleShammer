@@ -1057,7 +1057,7 @@ MonoBehaviour:
 
     S(hold) - Fall through platform
 
-    Space - Shoot gun (if equiped)'
+    Arrow Keys - Shoot gun (if aquired)'
 --- !u!1 &3302325499579133099
 GameObject:
   m_ObjectHideFlags: 0
