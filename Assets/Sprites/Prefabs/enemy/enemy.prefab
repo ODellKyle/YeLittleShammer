@@ -56,12 +56,12 @@ MonoBehaviour:
   velocity: 0
   jump: 1
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
-  accuracy: 1
+  accuracy: 0.01
   startJumpDistance: 0.8
   lockOnDistance: 8.06
   offset: 1
   damage: 5
-  coolDown: 0.1
+  coolDown: 0.5
 --- !u!212 &691257424778963123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -225,7 +225,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
