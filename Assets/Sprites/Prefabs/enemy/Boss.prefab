@@ -148,12 +148,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onGround: 1
-  jumpForce: 250
+  jumpForce: 343
   doubleJumpForce: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  velocityLimit: 7.5
+  velocityLimit: 9.1
 --- !u!95 &7367222830033483599
 Animator:
   serializedVersion: 3

@@ -377,6 +377,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1448123141473515902, guid: e9d1e3079c81ac04395eb705d6ae28cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3996474021504696193, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -968,6 +973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
+      propertyPath: dialog.sentances.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
       propertyPath: dialog.sentances.Array.data[0]
       value: OH!
       objectReference: {fileID: 0}
@@ -990,6 +1000,311 @@ PrefabInstance:
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[4]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[5]
+      value: ALSO! See those hearts? They'll override your health to 150!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[6]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[7]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[8]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[9]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[10]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[11]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[12]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[13]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[14]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[15]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[16]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[17]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[18]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[19]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[20]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[21]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[22]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[23]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[24]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[25]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[26]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[27]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[28]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[29]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[30]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[31]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[32]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[33]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[34]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[35]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[36]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[37]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[38]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[39]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[40]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[41]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[42]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[43]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[44]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[45]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[46]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[47]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[48]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[49]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[50]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[51]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[52]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[53]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[54]
+      value: Use the arrow keys to give direction and fire. Now be safe out there
+        mate!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[55]
       value: Use the arrow keys to give direction and fire. Now be safe out there
         mate!
       objectReference: {fileID: 0}
@@ -1564,6 +1879,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 0}
   platformEffector: {fileID: 0}
+--- !u!1001 &9058917538034051866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031106748347325438, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040867298989138624, guid: e8301c3e4c386d54bb4f35f0dd71cd18,
+        type: 3}
+      propertyPath: m_Name
+      value: healthSprites_0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8301c3e4c386d54bb4f35f0dd71cd18, type: 3}
 --- !u!4 &9188208781981546820
 Transform:
   m_ObjectHideFlags: 0
