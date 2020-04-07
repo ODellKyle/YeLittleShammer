@@ -292,6 +292,7 @@ MonoBehaviour:
   offset: 1
   damage: 10
   coolDown: 0.3
+  animator: {fileID: 7367222830033483599}
 --- !u!1001 &1883602332942029413
 PrefabInstance:
   m_ObjectHideFlags: 0

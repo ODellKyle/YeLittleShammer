@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BossEnemy : Enemy
 {
+    public Animator animator;
     public static bool bossDefeated = false;
     public static bool bossActivated = false;
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class BossEnemy : Enemy
 
     void LateUpdate()
     {
+        animator.SetBool("bossDefeated", bossDefeated);
         Move();
         if (hp <= 0)
         {

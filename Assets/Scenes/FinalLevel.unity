@@ -6843,13 +6843,14 @@ Transform:
   - {fileID: 923933943}
   - {fileID: 144064579}
   - {fileID: 7061089905526170262}
-  - {fileID: 967067498}
   - {fileID: 7061089906094586931}
+  - {fileID: 967067498}
   - {fileID: 1068901644}
   - {fileID: 743322436}
   - {fileID: 712748883}
   - {fileID: 495237937}
   - {fileID: 199144271}
+  - {fileID: 1637937908}
   - {fileID: 576486414}
   - {fileID: 567437321}
   - {fileID: 1960195366}
@@ -6871,7 +6872,6 @@ Transform:
   - {fileID: 693107636}
   - {fileID: 972145238}
   - {fileID: 2090625347}
-  - {fileID: 1637937908}
   - {fileID: 2126088745}
   - {fileID: 1542922618}
   - {fileID: 267225445}
@@ -6882,10 +6882,10 @@ Transform:
   - {fileID: 1487349882}
   - {fileID: 212512403}
   - {fileID: 1547804245}
+  - {fileID: 1384705567}
   - {fileID: 439375233}
   - {fileID: 846882685}
   - {fileID: 793756389}
-  - {fileID: 1384705567}
   - {fileID: 1517840076}
   - {fileID: 965590047}
   - {fileID: 956314933}
@@ -8007,7 +8007,7 @@ PrefabInstance:
     - target: {fileID: 1448123141473515902, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302325499187492857, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
@@ -8166,7 +8166,7 @@ Transform:
   - {fileID: 1310179770}
   - {fileID: 967028155}
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 79
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1645453726
 PrefabInstance:
@@ -11204,7 +11204,7 @@ Transform:
   m_LocalScale: {x: 3.536365, y: 0.481, z: 1}
   m_Children: []
   m_Father: {fileID: 1355422883}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7417560842442813525
 BoxCollider2D:
