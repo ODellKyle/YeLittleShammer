@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExplodingEnemy : Enemy
 {
+    public Animator animator;
     public AudioClip explosion;
     private bool exploded = false;
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class ExplodingEnemy : Enemy
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("exploded", this.exploded);
         Move();
     }
 
@@ -40,9 +42,16 @@ public class ExplodingEnemy : Enemy
             audio.clip = explosion;
             audio.Play();
             player.TakeDamage(damage);
-            //perform explosion animation
-            this.TakeDamage(hp);
             exploded = true;
+            this.lockOnDistance = 0f;
+            StartCoroutine(Exploding());
         }
+    }
+
+    IEnumerator Exploding() 
+    {
+        yield return new WaitForSeconds(1f);
+        //perform explosion animation
+        this.TakeDamage(hp);
     }
 }

@@ -369,6 +369,7 @@ MonoBehaviour:
   inventory: 
   jumpingSound: {fileID: 8300000, guid: 43d97b524ee2c924e955681f63f9c8ab, type: 3}
   dyingSound: {fileID: 8300000, guid: fae08a6e1ab0b3f42a52d28d6ce39170, type: 3}
+  animator: {fileID: 7082258971567854975}
 --- !u!95 &7082258971567854975
 Animator:
   serializedVersion: 3

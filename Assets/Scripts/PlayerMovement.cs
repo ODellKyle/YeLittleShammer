@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [Range(0f, 10f)] [SerializeField] public float velocityLimit = 7.5f;
     private float velocityCap;
 
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
