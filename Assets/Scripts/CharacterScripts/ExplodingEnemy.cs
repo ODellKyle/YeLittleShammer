@@ -10,7 +10,7 @@ public class ExplodingEnemy : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        hp = Random.Range(5, 15);
+        hp = Random.Range(20, 30);
         speed = Random.Range(2f, 4f);
         damage = 30;
         mvmt = GetComponent<PlayerMovement>();
