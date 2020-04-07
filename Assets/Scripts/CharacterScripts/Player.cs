@@ -29,6 +29,7 @@ public class Player : Character
     public List<bool> inventory;
     public AudioClip jumpingSound;
     public AudioClip dyingSound;
+    public AudioClip hitSound;
     public Animator animator;
     private bool hasDied;
 
@@ -66,6 +67,9 @@ public class Player : Character
     {
         hp -= damage;
 
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = hitSound;
+        audio.Play();
         if (hp <= 0)
         {
             StartCoroutine(Dying());
