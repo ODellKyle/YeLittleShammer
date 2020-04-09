@@ -148,12 +148,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onGround: 1
-  jumpForce: 343
+  jumpForce: 384
   doubleJumpForce: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  velocityLimit: 9.1
+  velocityLimit: 9.26
 --- !u!95 &7367222830033483599
 Animator:
   serializedVersion: 3
@@ -288,7 +288,7 @@ MonoBehaviour:
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
   accuracy: 0.01
   startJumpDistance: 1
-  lockOnDistance: 5
+  lockOnDistance: 50
   offset: 1
   damage: 7
   coolDown: 0.3

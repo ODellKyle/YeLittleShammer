@@ -11,7 +11,7 @@ public class Enemy : Character
     //private Transform platform;
     [Range (.01f, 2f)] [SerializeField] public float accuracy = .01f;
     [Range(.5f, 10f)] [SerializeField] public float startJumpDistance = 1f;
-    [Range(1f, 10f)] [SerializeField] public float lockOnDistance = 5f;
+    [Range(1f, 50f)] [SerializeField] public float lockOnDistance = 5f;
     [Range(1f, 4f)] [SerializeField] public float offset = 1f;
     public int damage = 5;
     public float coolDown = .1f;

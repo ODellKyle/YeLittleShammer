@@ -11,7 +11,6 @@ public class InventoryDisplay : MonoBehaviour
     void Start()
     {
         items = new List<GameObject>() { gunImage, keyImage };
-        HasItems();
     }
 
     // Update is called once per frame
