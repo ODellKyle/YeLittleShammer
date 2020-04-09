@@ -34,7 +34,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume() 
     {
-        Debug.Log("Resume called");
+        //Debug.Log("Resume called");
         pauseMenu.SetActive(false);
         Player.Instance.Inactive(true);
         Time.timeScale = 1f;
@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
 
     void Pause() 
     {
-        Debug.Log("Pause called");
+        //Debug.Log("Pause called");
         pauseMenu.SetActive(true);
         Player.Instance.Inactive(false);
         Time.timeScale = 0f;
@@ -52,7 +52,7 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenuPressed()
     {
-        Debug.Log("MainMenu called");
+        //Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1f;
         Player.Instance.Inactive(false);
@@ -61,7 +61,7 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitPressed()
     {
-        Debug.Log("Quit called");
+        //Debug.Log("Quit called");
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;

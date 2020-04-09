@@ -42,7 +42,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         if (pressurePlate1.GetSteppedOn() && !pressurePlate2.GetSteppedOn()
             && !pressurePlate3.GetSteppedOn())
         {
-            Debug.Log("stepped on 1!");
+            //Debug.Log("stepped on 1!");
             Activate1();
         }
 
@@ -63,13 +63,13 @@ public class IntermLevelPuzzle : MonoBehaviour
     void Activate1()
     {
         greenLight1.SetActive(true);
-        Debug.Log("Activate1!");
+        //Debug.Log("Activate1!");
     }
 
     void Activate2() 
     {
         greenLight2.SetActive(true);
-        Debug.Log("Activate2!");
+        //Debug.Log("Activate2!");
     }
 
     void Unlock() 
@@ -90,7 +90,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         door.SetActive(Lock.unlocked);
         NPC.SetActive(Lock.unlocked);
 
-        Debug.Log("Unlocked!");
+        //Debug.Log("Unlocked!");
     }
 
     private void ResetPuzzle()

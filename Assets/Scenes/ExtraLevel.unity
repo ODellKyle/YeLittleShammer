@@ -809,6 +809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD_Pause_DialogBox_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1448123141473515902, guid: e9d1e3079c81ac04395eb705d6ae28cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7676624235955730018, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -817,7 +822,7 @@ PrefabInstance:
     - target: {fileID: 7676624235955730018, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 21.399994
+      value: 21.400024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9d1e3079c81ac04395eb705d6ae28cc, type: 3}
@@ -1150,7 +1155,7 @@ Transform:
   - {fileID: 652807833}
   - {fileID: 1827036648}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 32
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333711726 stripped
 GameObject:
@@ -1956,7 +1961,7 @@ Transform:
   - {fileID: 819196558}
   - {fileID: 712864430}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 52
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &819196558 stripped
 Transform:
@@ -3008,17 +3013,52 @@ PrefabInstance:
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.size
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[0]
-      value: End of demo! Congrats! Thanks for playing!
+      value: I wish I could tell you this was the end.
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: triggerDialogDistance
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[1]
+      value: I wish I could tell you home is beyond this door.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[2]
+      value: But
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[3]
+      value: Its not.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[4]
+      value: Beyond this door is the credits, for you have reached the end of my demo.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[5]
+      value: But nevertheless, I hope you enjoyed yourself.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[6]
+      value: Maybe I'll see you again in the full release?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
+        type: 3}
+      propertyPath: dialog.sentances.Array.data[7]
+      value: Either way, be safe, YE LITTLE SHAMMER!
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304283, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
@@ -3228,9 +3268,11 @@ Transform:
   - {fileID: 1641912179}
   - {fileID: 165493475}
   - {fileID: 102284482}
+  - {fileID: 5016138351549189442}
   - {fileID: 1987047300}
   - {fileID: 2008191304}
   - {fileID: 1728895045}
+  - {fileID: 297613031}
   - {fileID: 333711732}
   - {fileID: 194503556}
   - {fileID: 1752570063}
@@ -3244,10 +3286,8 @@ Transform:
   - {fileID: 1086840972}
   - {fileID: 1706229826}
   - {fileID: 973304243}
-  - {fileID: 5016138351549189442}
   - {fileID: 1634653187}
   - {fileID: 182234445}
-  - {fileID: 297613031}
   - {fileID: 992567554}
   - {fileID: 1583746683}
   - {fileID: 502289650}
@@ -3260,6 +3300,7 @@ Transform:
   - {fileID: 1749223002}
   - {fileID: 1521220222}
   - {fileID: 23942496}
+  - {fileID: 799840515}
   - {fileID: 714664818}
   - {fileID: 207795578}
   - {fileID: 68310332}
@@ -3267,7 +3308,6 @@ Transform:
   - {fileID: 2113882999}
   - {fileID: 1539452862}
   - {fileID: 1017175014}
-  - {fileID: 799840515}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5461,7 +5501,7 @@ Transform:
   m_Children:
   - {fileID: 5016138352973718267}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 29
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5016138351549189443
 SpriteRenderer:

@@ -8,7 +8,7 @@ public class ShipScene : MonoBehaviour
 {
     public float timeUntilLanding = 30f;
     public float timer;
-    public Text timerText;
+    //public Text timerText;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class ShipScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timerText.text = (30 - Time.time).ToString();
+        //timerText.text = (30 - Time.time).ToString();
         if ((Time.time - timer > timeUntilLanding) && Player.Instance.enabled) 
         {
             SceneManager.LoadScene("FirstLevel");

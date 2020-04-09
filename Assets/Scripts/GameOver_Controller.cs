@@ -19,7 +19,7 @@ public class GameOver_Controller : MonoBehaviour
 
     public void PlayPressed() 
     {
-        Debug.Log("Play called");
+        //Debug.Log("Play called");
         SceneManager.LoadScene("TutorialScene");
         if(Player.Instance != null) 
         {
@@ -33,7 +33,7 @@ public class GameOver_Controller : MonoBehaviour
 
     public void ContinuePressed() 
     {
-        Debug.Log("Continue called");
+        //Debug.Log("Continue called");
         Door door = new Door();
         SceneManager.LoadScene(door.scenes[Player.Instance.currentLevel]);
         Player.Instance.Inactive(true);
@@ -42,7 +42,7 @@ public class GameOver_Controller : MonoBehaviour
 
     public void MainMenuPressed() 
     {
-        Debug.Log("MainMenu called");
+        //Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
         Player.Instance.Inactive(true);
         Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
@@ -50,7 +50,7 @@ public class GameOver_Controller : MonoBehaviour
 
     public void QuitPressed()
     {
-        Debug.Log("Quit called");
+        //Debug.Log("Quit called");
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
