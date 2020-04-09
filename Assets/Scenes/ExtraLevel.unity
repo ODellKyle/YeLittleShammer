@@ -812,7 +812,7 @@ PrefabInstance:
     - target: {fileID: 1448123141473515902, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676624235955730018, guid: e9d1e3079c81ac04395eb705d6ae28cc,
         type: 3}
@@ -1155,7 +1155,7 @@ Transform:
   - {fileID: 652807833}
   - {fileID: 1827036648}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333711726 stripped
 GameObject:
@@ -1961,7 +1961,7 @@ Transform:
   - {fileID: 819196558}
   - {fileID: 712864430}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 45
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &819196558 stripped
 Transform:
@@ -3258,6 +3258,7 @@ Transform:
   - {fileID: 1611261435}
   - {fileID: 1525250159}
   - {fileID: 2110164867}
+  - {fileID: 5016138351549189442}
   - {fileID: 792811976}
   - {fileID: 292309825}
   - {fileID: 1078625641}
@@ -3268,11 +3269,10 @@ Transform:
   - {fileID: 1641912179}
   - {fileID: 165493475}
   - {fileID: 102284482}
-  - {fileID: 5016138351549189442}
   - {fileID: 1987047300}
   - {fileID: 2008191304}
-  - {fileID: 1728895045}
   - {fileID: 297613031}
+  - {fileID: 1728895045}
   - {fileID: 333711732}
   - {fileID: 194503556}
   - {fileID: 1752570063}
@@ -3281,6 +3281,7 @@ Transform:
   - {fileID: 795614426}
   - {fileID: 1580521154}
   - {fileID: 1123536195}
+  - {fileID: 799840515}
   - {fileID: 1166796359}
   - {fileID: 535152004}
   - {fileID: 1086840972}
@@ -3300,7 +3301,6 @@ Transform:
   - {fileID: 1749223002}
   - {fileID: 1521220222}
   - {fileID: 23942496}
-  - {fileID: 799840515}
   - {fileID: 714664818}
   - {fileID: 207795578}
   - {fileID: 68310332}
@@ -5501,7 +5501,7 @@ Transform:
   m_Children:
   - {fileID: 5016138352973718267}
   m_Father: {fileID: 1382443492}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5016138351549189443
 SpriteRenderer:
