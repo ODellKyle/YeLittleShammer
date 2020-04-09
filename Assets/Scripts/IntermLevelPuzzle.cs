@@ -18,9 +18,12 @@ public class IntermLevelPuzzle : MonoBehaviour
     public GameObject expandedFloor;
     public GameObject realWall;
     public GameObject key;
+    public AudioClip failedSound;
+    private bool failed;
     // Start is called before the first frame update
     void Start()
     {
+        failed = false;
         greenLight1.SetActive(false);
         greenLight2.SetActive(false);
         greenLight3.SetActive(false);
@@ -42,7 +45,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         if (pressurePlate1.GetSteppedOn() && !pressurePlate2.GetSteppedOn()
             && !pressurePlate3.GetSteppedOn())
         {
-            //Debug.Log("stepped on 1!");
+            failed = true;
             Activate1();
         }
 
@@ -57,7 +60,9 @@ public class IntermLevelPuzzle : MonoBehaviour
             Unlock();
         }
         else
+        {
             ResetPuzzle();
+        }
     }
 
     void Activate1()
@@ -95,6 +100,13 @@ public class IntermLevelPuzzle : MonoBehaviour
 
     private void ResetPuzzle()
     {
+        if (failed) 
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.clip = failedSound;
+            audio.Play();
+            failed = false;
+        }
         greenLight1.SetActive(false);
         greenLight2.SetActive(false);
         greenLight3.SetActive(false);
