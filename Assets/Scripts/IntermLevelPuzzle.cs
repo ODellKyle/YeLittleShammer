@@ -108,5 +108,6 @@ public class IntermLevelPuzzle : MonoBehaviour
         fakeWall.SetActive(true);
         realWall.SetActive(false);
         expandedFloor.SetActive(false);
+        BossEnemy.bossActivated = false;
     }
 }
