@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 911c1ba4d62f63046a7c9c222b5ca7af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 0
-  speed: 10
+  hp: 100
+  speed: 6
   velocity: 0
   jump: 0
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
@@ -110,7 +110,7 @@ MonoBehaviour:
   startJumpDistance: 1
   lockOnDistance: 6.55
   offset: 1
-  damage: 20
+  damage: 30
   coolDown: 15
   animator: {fileID: 9047109322757491347}
   explosion: {fileID: 8300000, guid: 26ed2afba00983a4a8f008241fb4a847, type: 3}

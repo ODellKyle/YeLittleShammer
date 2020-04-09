@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 2000
-  speed: 6.7
+  speed: 5
   velocity: 0
   jump: 0
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
@@ -290,7 +290,7 @@ MonoBehaviour:
   startJumpDistance: 1
   lockOnDistance: 5
   offset: 1
-  damage: 10
+  damage: 7
   coolDown: 0.3
   animator: {fileID: 7367222830033483599}
 --- !u!1001 &1883602332942029413

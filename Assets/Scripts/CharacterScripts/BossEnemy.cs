@@ -10,9 +10,6 @@ public class BossEnemy : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        hp = 2000;
-        speed = 5f;
-        damage = 5;
         mvmt = GetComponent<PlayerMovement>();
         jump = true;
         bossActivated = true;

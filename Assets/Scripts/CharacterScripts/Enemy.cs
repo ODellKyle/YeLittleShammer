@@ -36,8 +36,6 @@ public class Enemy : Character
     void Start()
     {
         timer = Time.time;
-        hp = Random.Range(200, 250);
-        speed = Random.Range(7f, 8f);
         mvmt = GetComponent<PlayerMovement>();
         jump = true;
     }
