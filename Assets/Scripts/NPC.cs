@@ -7,13 +7,17 @@ public class NPC : Character
     public Dialog dialog;
     public float triggerDialogDistance = 4f;
     private bool dialogTriggered;
+    public AudioClip talkingSound;
     public override void Move()
     {
         throw new System.NotImplementedException();
     }
     public void Speak() 
     {
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.clip = talkingSound;
         FindObjectOfType<DialogManager>().StartDialog(this.dialog);
+        audio.Play();
     }
 
     // Start is called before the first frame update
