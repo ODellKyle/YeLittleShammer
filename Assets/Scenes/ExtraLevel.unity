@@ -228,12 +228,12 @@ PrefabInstance:
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.918746
+      value: 11.78
       objectReference: {fileID: 0}
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.209674
+      value: -0.96
       objectReference: {fileID: 0}
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
@@ -3850,7 +3850,7 @@ GameObject:
   - component: {fileID: 1611261435}
   - component: {fileID: 1611261434}
   - component: {fileID: 1611261433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: puzzleSprites_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,12 +4230,12 @@ PrefabInstance:
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.124897
+      value: 9.33
       objectReference: {fileID: 0}
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6145232
+      value: 1.41
       objectReference: {fileID: 0}
     - target: {fileID: 8251463692338740028, guid: 95cf415d2d17c5e438bb8a3d740c3c37,
         type: 3}
@@ -5053,7 +5053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110164865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9226103, y: 1.1009469, z: 399.54517}
+  m_LocalPosition: {x: 2.68, y: 1.02, z: 399.54517}
   m_LocalScale: {x: 0.5858148, y: 0.6005653, z: 1}
   m_Children: []
   m_Father: {fileID: 1382443492}
