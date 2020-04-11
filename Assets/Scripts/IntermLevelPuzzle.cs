@@ -125,5 +125,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         realWall.SetActive(false);
         expandedFloor.SetActive(false);
         BossEnemy.bossActivated = false;
+        BossEnemy.bossDefeated = false;
+        Lock.unlocked = false;
     }
 }
