@@ -10,11 +10,9 @@ public class PressurePlate : MonoBehaviour
         Player player = collision.GetComponent<Player>();
         if (player != null)
         {
-            Debug.Log("Stepping on!");
+            //Debug.Log("Stepping on!");
             steppedOn = true;
         }
-        else
-            Debug.Log("Not stepping on!");
     }
 
     public bool GetSteppedOn() 
