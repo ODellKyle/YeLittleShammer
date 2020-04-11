@@ -46,7 +46,7 @@ public class GameOver_Controller : MonoBehaviour
     {
         //Debug.Log("MainMenu called");
         SceneManager.LoadScene("MainMenu");
-        Player.Instance.Inactive(true);
+        Player.Instance.Inactive(false);
         Player.Instance.transform.position = new Vector3(6f, -3.86f, 0f);
     }
 
