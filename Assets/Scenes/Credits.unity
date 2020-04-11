@@ -511,8 +511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9.399994, y: -0.0009765625}
-  m_SizeDelta: {x: -18.799988, y: -0.17001343}
+  m_AnchoredPosition: {x: -0.00014568453, y: -80.23007}
+  m_SizeDelta: {x: -18.8, y: 160.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407874491
 MonoBehaviour:
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Content: {fileID: 839127043}
+  m_Content: {fileID: 407874490}
   m_Horizontal: 1
   m_Vertical: 1
   m_MovementType: 1
@@ -996,8 +996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.8}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5999908, y: -219.39996}
-  m_SizeDelta: {x: -9.200001, y: 438.8}
+  m_AnchoredPosition: {x: 1.5999908, y: -1042}
+  m_SizeDelta: {x: -9.2, y: 2084}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678842578
 MonoBehaviour:
@@ -1030,54 +1030,36 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Scene transition mechanics:
-
-    Kyle Molina Sanchez O''Dell
-
-
-    Enemy detect/follow player mechanics:
-
-    Kyle Molina Sanchez O''Dell''s Linear Algebra skills
-
-
-    Health Bar mechanics inspired by: Brackeys
-
-
-    Artwork:
-
-    Kyle Molina Sanchez O''Dell
-
-
-    Soundtrack:
-
-    Produced by: Kyle Molina Sanchez O''Dell
-
-    Written by: Kyle Molina Sanchez O''Dell
-
-
-    All sounds recorded and produced by:
-
-    Kyle Molina Sanchez O''Dell
-
-
-    Story written by:
-
-    Kyle Molina Sanchez O''Dell
-
-
-    Shooting/Movement mechanics inspired by: Brackeys
-
-
-    Dialog mechanics:
-
-    Brackeys
-
-
-    Pause menu inspired by:
-
-    Brackeys
-
-'
+  m_Text: "Developed by:\nKyle O'Dell\n\nStory written by:\nKyle O'Dell\n\n\nSoundtrack:\r\n\nMain
+    Menu Theme \u2013 Written and produced by Kyle O\u2019Dell\r\n\nGameover / credits
+    theme \u2013 Written and produced by Kyle O\u2019Dell\r\n\nFirst level theme \u2013
+    Written and produced by Kyle O\u2019Dell\r\n\nSecond level theme \u2013 Written
+    and produced by Kyle O\u2019Dell\r\n\nFinal level theme \u2013 Written and produced
+    by Kyle O\u2019Dell\r\n\r\n\nSounds:\r\n\nPlayer death sounds \u2013 recorded
+    by Kyle O\u2019Dell\r\n\nPlayer hit sounds \u2013 recorded by Kyle O\u2019Dell\n\nEnemy
+    death sounds \u2013 recorded by Kyle O\u2019Dell\r\n\nCaptain Cah\u2019s voice
+    \u2013 Kyle O\u2019Dell\n\r\nJumping Sound \u2013 recorded by Kyle O\u2019Dell\r\n\nGreen
+    Light Activation sound \u2013 recorded by Kyle O\u2019Dell\r\n\nRunning water
+    sound \u2013 recorded by Kyle O\u2019Dell\r\n\nGun shooting sound \u2013 recorded
+    by Kyle O\u2019Dell\r\n\nGaining health sound \u2013 recorded by Kyle O\u2019Dell\r\n\n\r\nArtwork:\r\n\nLittle
+    Shammer character \u2013 Kyle O\u2019Dell\r\n\nCaptain Cah character \u2013 Kyle
+    O\u2019Dell\r\n\nMelee enemy \u2013 Kyle O\u2019Dell\r\n\nExploding Enemy \u2013
+    Kyle O\u2019Dell\r\n\nBoss enemy \u2013 Kyle O\u2019Dell\r\n\nHearts \u2013 Kyle
+    O\u2019Dell\r\n\nMain Menu background \u2013 Kyle O\u2019Dell\r\n\nTutorial level
+    background \u2013 Kyle O\u2019Dell\r\n\nShip Scene background \u2013 Kyle O\u2019Dell\r\n\nFirst
+    level background \u2013 Kyle O\u2019Dell\r\n\nSecond level background \u2013 Kyle
+    O\u2019Dell\r\n\nFinal level background \u2013 Kyle O\u2019Dell\r\n\nRed platforms
+    \u2013 Kyle O\u2019Dell\r\n\nFlower platforms \u2013 Kyle O\u2019Dell\r\n\nYellow
+    platforms \u2013 Kyle O\u2019Dell\r\n\nShip Platforms \u2013 Kyle O\u2019Dell\r\n\nGround
+    \u2013 Kyle O\u2019Dell\r\n\nHouse \u2013 Kyle O\u2019Dell\r\n\nFireplace \u2013
+    Kyle O\u2019Dell\r\n\nGun \u2013 Kyle O\u2019Dell\r\n\nKey \u2013 Kyle O\u2019Dell\r\n\nKeyhole
+    \u2013 Kyle O\u2019Dell\r\n\nHUD inventory \u2013 Kyle O\u2019Dell\r\n\nProjectiles
+    \u2013 Kyle O\u2019Dell\r\n\n\nMechanics:\n\nScene transition mechanics - Kyle
+    O'Dell\n\nEnemy detect/follow player mechanics - Kyle O'Dell's Linear Algebra
+    skills\n\n\nInspiration / Guidance:\n\nHealth Bar mechanics inspired by: Brackeys\n\nhttps://www.youtube.com/watch?v=BLfNP4Sc_iA\n\n\n\nShooting/Movement
+    mechanics inspired by: Brackeys\n\nhttps://www.youtube.com/watch?v=dwcT-Dch0bA&t=220s\n\nhttps://www.youtube.com/watch?v=wkKsl1Mfp5M\n\n\n\nDialog
+    mechanics:\nBrackeys\n\nhttps://www.youtube.com/watch?v=_nRzoTzeyxU&t=593s\n\n\n\nPause
+    menu inspired by:\nBrackeys\n\nhttps://www.youtube.com/watch?v=JivuXdrIHK0&t=458s\n"
 --- !u!222 &678842579
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1202,8 +1184,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2068037989}
   m_HandleRect: {fileID: 2068037988}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.54863834
+  m_Value: 0.9999999
+  m_Size: 0.12647519
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2282,8 +2264,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594832423}
   m_HandleRect: {fileID: 594832422}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.89858145
+  m_Value: 1.0000002
+  m_Size: 0.62686706
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
