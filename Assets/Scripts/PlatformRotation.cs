@@ -8,7 +8,8 @@ public class PlatformRotation : MonoBehaviour
     [Range(0f, 90f)] [SerializeField] public float rotateAngleY = 15f;
     [Range(0f, 90f)] [SerializeField] public float rotateAngleZ = 15f;
 
-    // Update is called once per frame
+
+
     void LateUpdate()
     {
         if (Player.Instance.jump && Player.Instance.mvmt.onGround)
