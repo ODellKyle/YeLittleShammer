@@ -18,6 +18,7 @@ public class IntermLevelPuzzle : MonoBehaviour
     public GameObject expandedFloor;
     public GameObject realWall;
     public GameObject key;
+    public GameObject npcPlatform;
     public AudioClip failedSound;
     private bool failed;
     // Start is called before the first frame update
@@ -33,6 +34,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         pressurePlate3.SetSteppedOn(false);
         bossSpawner.SetActive(false);
         NPC.SetActive(false);
+        npcPlatform.SetActive(false);
         block.SetActive(false);
         fakeWall.SetActive(true);
         realWall.SetActive(false);
@@ -94,6 +96,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         expandedFloor.SetActive(true);
         door.SetActive(Lock.unlocked);
         NPC.SetActive(Lock.unlocked);
+        npcPlatform.SetActive(Lock.unlocked);
 
         //Debug.Log("Unlocked!");
     }
@@ -117,6 +120,7 @@ public class IntermLevelPuzzle : MonoBehaviour
         bossSpawner.SetActive(false);
         door.SetActive(false);
         NPC.SetActive(false);
+        npcPlatform.SetActive(false);
         fakeWall.SetActive(true);
         realWall.SetActive(false);
         expandedFloor.SetActive(false);
