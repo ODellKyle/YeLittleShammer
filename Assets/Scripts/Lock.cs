@@ -13,7 +13,10 @@ public class Lock : MonoBehaviour
         if(player != null) 
         {
             if (Player.Instance.inventory[1])
+            {
                 unlocked = true;
+                CreditsManager.gameFinished = true;
+            }
         }
     }
 }

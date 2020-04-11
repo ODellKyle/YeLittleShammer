@@ -31,7 +31,7 @@ public class NPC : Character
     {
         if (((Player.Instance.transform.position - this.transform.position).magnitude < triggerDialogDistance) && !dialogTriggered)
         {
-            Debug.Log(dialogTriggered);
+            //Debug.Log(dialogTriggered);
             dialogTriggered = true;
             Speak();
         }

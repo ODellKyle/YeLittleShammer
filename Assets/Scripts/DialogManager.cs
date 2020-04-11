@@ -56,7 +56,7 @@ public class DialogManager : MonoBehaviour
 
         string sentance = sentances.Dequeue();
         dialogText.text = sentance;
-        Debug.Log(sentance);
+        //Debug.Log(sentance);
     }
 
     //IEnumerator 
@@ -64,7 +64,7 @@ public class DialogManager : MonoBehaviour
     public void EndDialogue() 
     {
         Player.Instance.Inactive(true);
-        Debug.Log("End conversation");
+        //Debug.Log("End conversation");
         HUD.SetActive(true);
         DialogBox.SetActive(false);
     }

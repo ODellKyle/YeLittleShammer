@@ -6,11 +6,15 @@ using UnityEngine.UI;
 
 public class CreditsManager : MonoBehaviour
 {
+    public static bool gameFinished = false;
     public void MainMenuPressed() 
     {
-        Player.Instance.inventory[0] = false;
-        Player.Instance.inventory[1] = false;
-        Destroy(GameObject.Find("player"));
+        if (gameFinished)
+        {
+            Player.Instance.inventory[0] = false;
+            Player.Instance.inventory[1] = false;
+            Destroy(GameObject.Find("player"));
+        }
         SceneManager.LoadScene("MainMenu");
     }
 }

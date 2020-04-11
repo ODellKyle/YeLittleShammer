@@ -23,18 +23,20 @@ public class GameOver_Controller : MonoBehaviour
         SceneManager.LoadScene("TutorialScene");
         if(Player.Instance != null) 
         {
-            Door door = new Door();
+            Door door = gameObject.AddComponent<Door>() as Door;
+            //Door door = new Door();
             Player.Instance.transform.position = new Vector3(-5.82f, -2.92f, 0f);
             Player.Instance.NewGame();
             Player.Instance.Inactive(true);
-
+            CreditsManager.gameFinished = false;
         }
     }
 
     public void ContinuePressed() 
     {
         //Debug.Log("Continue called");
-        Door door = new Door();
+        //Door door = new Door();
+        Door door = gameObject.AddComponent<Door>() as Door;
         SceneManager.LoadScene(door.scenes[Player.Instance.currentLevel]);
         Player.Instance.Inactive(true);
         Player.Instance.transform.position = Door.Coordinates.cooridnates[Player.Instance.currentLevel];
