@@ -108,7 +108,7 @@ MonoBehaviour:
   dyingSound: {fileID: 8300000, guid: 85f4556ceab462c4dad47434a56a6f36, type: 3}
   accuracy: 0.01
   startJumpDistance: 1
-  lockOnDistance: 6.55
+  lockOnDistance: 10.7
   offset: 1
   damage: 30
   coolDown: 15

@@ -875,7 +875,7 @@ PrefabInstance:
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
@@ -912,8 +912,8 @@ PrefabInstance:
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
       propertyPath: dialog.sentances.Array.data[6]
-      value: Use the arrow keys to give direction and fire. Now be safe out there
-        mate!
+      value: AND, if you have forgotten for some odd reason, your house is up the
+        hill and across the bridge.
       objectReference: {fileID: 0}
     - target: {fileID: 8864484868244304263, guid: 3c003a701e21ec942b555ce1e2abefef,
         type: 3}
